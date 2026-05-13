@@ -297,7 +297,7 @@ editor.label.min_3_verts=ضع 3 رؤوس على الأقل للإنهاء.
 # Editor| Reference Overlay Panel
 editor.window.ref_image=خصائص الصورة المرجعية
 editor.btn.delete=حذف
-فتح=editor.btn.unlock
+editor.btn.unlock=فتح
 editor.btn.lock=قفل
 editor.btn.hide=إخفاء
 editor.btn.show=إظهار

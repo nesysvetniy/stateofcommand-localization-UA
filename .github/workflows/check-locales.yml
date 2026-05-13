@@ -1,0 +1,49 @@
+name: Check Locales
+
+on:
+  pull_request:
+    paths:
+      - 'locales/**'
+  push:
+    branches:
+      - main
+    paths:
+      - 'locales/**'
+
+permissions:
+  pull-requests: write
+  contents: read
+
+jobs:
+  check:
+    name: Check Locales
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@main
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@main
+        with:
+          python-version: '3.x'
+
+      - name: Run the script
+        id: validate
+        run: python .github/scripts/check_locales.py
+
+      - name: Comment PR on Failure
+        if: failure() && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@main
+        with:
+          header: locale-validation
+          path: pr_comment.md
+
+      - name: Remove PR Comment on Success
+        if: success() && github.event_name == 'pull_request'
+        uses: marocchino/sticky-pull-request-comment@main
+        with:
+          header: locale-validation
+          delete: true
