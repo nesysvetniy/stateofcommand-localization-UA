@@ -1,0 +1,360 @@
+# -------------------------------------
+# State of Command: Turkish locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Oyuna Başla
+menu.button.profile=Profil
+menu.button.settings=Ayarlar
+menu.button.quit=Oyundan çık
+menu.intro.presented_by=Sunar  
+
+# Main Menu Settings
+menu.settings.title=Ayarlar
+menu.settings.language=Dil
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Diplomasi
+ui.button.economy=Ekonomi
+ui.button.unset=Seçilmedi
+ui.button.military=Askeri
+
+# UI Manager| Country Select
+ui.button.play_as=Olarak oyna
+
+# UI Manager| Settings
+ui.window.settings=Ayarlar
+ui.settings.secondary_icons=İkincil birim simgelerini kullan
+ui.settings.flag_zoom_out=Ekranı uzaklaitırınca bayrakları göster (Birimler)
+ui.settings.nation_overlay=Ülke görünümü (N)
+ui.settings.always_flag=Birimler üzerinde bayrakları her zaman göster (F)
+ui.settings.unit_size=Birim büyüklüğü
+
+# UI Manager| City tab (single city)
+ui.label.pop=Nüfus: %d
+ui.label.buildings=Binalar:
+ui.label.no_buildings=Bina yok
+ui.label.construct=İnşa et:
+ui.button.factory=Fabrika
+ui.button.military_hq=Ordu Karargâhı
+ui.button.depot=Depo
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu şehirler seçildi
+ui.label.total_buildings=Toplam binalar:
+ui.label.no_buildings_selected=Seçilen şehirlerde bina yok
+ui.button.create_units=Birim oluştur
+ui.button.construct_buildings=Binalar inşa Et
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Endüstriyel Fabrika
+ui.building.production_lines=Üretim Hatları:
+ui.building.inventory=Envanter:
+ui.building.no_items=Öğe yok
+ui.button.add_production_line=Üretim hattı ekle
+ui.building.military_hq_title=Ordu Karargâhı
+ui.button.spawn_unit=Birim Çağır
+ui.building.supply_depot=Takviye Deposu
+ui.building.stored_equipment=Depolanan Ekipman:
+ui.label.empty=Boş
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Birim Türünü Seç:
+ui.button.cancel=İptal et
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Ekipman Yok
+ui.tooltip.morale=Moral: %.1f
+ui.tooltip.retreat_behavior=Geri Çekilme Davranışı: %s
+ui.retreat.normal=Normal
+ui.retreat.hold_position=Pozisyonu Tut
+ui.retreat.fallback=Geri Mevzilen
+ui.tooltip.forming=İntikal: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=İŞGAL MODU AKTİF
+ui.invasion.draw_line=Saldırı hatları çizerek planla
+ui.invasion.toggle_off="I" tuşuna basarak kapat/aç
+ui.button.execute=UYGULA
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Bina İnşa Et
+ui.label.construct_building=Bina İnşa Et:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Senin Ülken:
+ui.diplomacy.status_ally=MÜTTEFİK
+ui.diplomacy.status_war=SAVAŞTA
+ui.diplomacy.status_neutral=Tarafsız
+ui.diplomacy.button_ally=Müttefik Ol
+ui.diplomacy.button_war=Savaş Aç
+ui.diplomacy.button_break_alliance=İttifakı Boz
+ui.diplomacy.button_peace=Barış Yap
+ui.diplomacy.info_tooltip=Haritaya sağ tıklayarak kapat
+
+# Editor| Top Bar
+editor.btn.provinces=Bölgeler
+editor.btn.cities=Şehirler
+editor.btn.urban=Kentsel
+editor.btn.roads=Yollar
+editor.btn.buildings=Binalar
+editor.btn.units=Birimler
+editor.btn.nations=Ülkeler
+editor.btn.draw_province=Bölge Çiz
+editor.btn.definitions=Tanımlar
+editor.btn.ref=+ Referans
+editor.tooltip.render_settings=Görselleştirme Ayarları
+editor.label.modified=[DEĞİŞTİRİLDİ]
+editor.label.no_map=Harita yok — bir harita seti yüklemek için Kaynak Tarayıcısını açın
+
+# Editor| Resource Browser
+editor.window.resource_browser=Kaynak Tarayıcısı
+editor.tab.maps=Haritalar
+editor.tab.units=Birimler
+editor.tab.flags=Bayraklar
+editor.btn.refresh=Yenile
+editor.btn.load_map=Harita Yükle
+editor.btn.save_map=Haritayı Kaydet
+editor.btn.load_unit_set=Birim Seti Yükle
+editor.btn.save_flags=Bayrakları Kaydet
+editor.btn.load_flag_set=Bayrak Seti Yükle
+editor.btn.duplicate=Kopyala
+editor.btn.save_to=Farklı Kaydet...
+editor.hint.new_set_name=Yeni set adı...
+editor.btn.create=Oluştur
+editor.btn.save_all=Tümünü Kaydet(Ctrl+S)
+editor.label.unsaved=Kaydedilmemiş değişiklikler!
+editor.hint.or_new_name=Ya da yeni bir ad gir...
+editor.btn.save=Kaydet
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Seti Kopyala
+editor.popup.duplicate_format=%s Seti Kopyala
+editor.popup.new_name_label=Yeni Ad
+editor.btn.duplicate_confirm=Kopyala
+editor.btn.cancel=İptal
+editor.popup.save_to_title=Sete Kaydet
+editor.popup.save_to_format=Mevcut veriyi bir %s setine kaydet:
+editor.set_type.map=Harita
+editor.set_type.unit=Birim
+editor.set_type.flag=Bayrak
+
+# Editor| Province Panel
+editor.window.province=Bölge Özellikleri
+editor.label.province_id=Bölge ID: %d
+editor.input.province_name=Bölge Adı
+editor.input.owning_nation=Sahip Olan Ülke
+editor.input.assign_nation=Ülkeye Ata
+editor.label.vertices=Köşe Noktaları: %d  (sınır: %d)
+editor.label.vertex_info=Köşe #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Konum
+editor.label.belongs_to=Şu Bölgeye Ait: %d (%s)
+editor.input.reassign_id=Bölge ID'sini Değiştir
+editor.btn.reassign=Köşeyi Yeniden Ata
+editor.btn.remove_vertex=Köşeyi Sil
+editor.label.interior_vertex=(iç köşe)
+editor.label.min_verts=(min 3 köşe)
+editor.label.province_management=Bölge Yönetimi
+editor.btn.stop_adding=Ekleme İşlemini Durdur
+editor.btn.add_vertex=Köşe Ekle
+editor.label.click_boundary=Sınır üzerine tıklayarak ekle
+editor.btn.draw_new_province=Yeni Bölge Çiz
+editor.label.drawing_verts=Çiziliyor... (%d köşe)
+editor.btn.delete_province=Bölgeyi Sil
+
+# Editor| Nation Panel
+editor.window.nation=Ülke Özellikleri
+editor.label.nation_hash=Hash: %u  Bölgeler: %d
+editor.input.nation_name=Ülke İsmi
+editor.label.no_flag=(bayrak yok)
+editor.label.flag_set=Flag set: %s
+editor.btn.change_flag=Bayrak Değiştir...
+editor.label.allies=Müttefikler
+editor.btn.add_ally=Müttefik Ekle
+editor.label.enemies=Düşmanlar
+editor.btn.add_enemy=Düşman Ekle
+editor.label.province_list_header=Bölge Listesi
+editor.label.state_management=Ülke Yönetimi
+editor.input.new_state_name=Yeni Ülke Adı##newstate
+editor.btn.create_state=Ülke Oluştur
+editor.btn.delete_state=Bu Ülkeyi Sil
+
+# Editor| City Panel
+editor.window.city=Şehir Düzenleyici
+editor.label.cities_count=Şehirler: %d
+editor.btn.placing_cities=Şehirler Yerleştiriliyor...
+editor.btn.place_city=Şehir Yerleştir
+editor.label.click_map_place=Yerleştirmek için haritaya tıkla
+editor.label.city_id=Şehir  #%d
+editor.input.city_name=Ad
+editor.input.city_state=Ülke
+editor.input.city_province=Bölge
+editor.input.population=Nüfus
+editor.input.lon_lat=Boylam / Enlem
+editor.checkbox.urban_area=Kentsel Alan
+editor.label.world_coords=Dünya: (%.4f, %.4f)
+editor.btn.delete_city=Şehri Sil
+editor.input.filter=Filtrele
+
+# Editor| Road Panel
+editor.window.road=Yol Düzenleyici
+editor.label.segments=Segmentler: %d
+editor.btn.new_segment=Yeni Segment
+editor.label.add_mode=EKLEME MODU
+editor.btn.stop=Dur
+editor.btn.add_points=Noktalar Ekle
+editor.label.segment_info=Segment #%d (%d nokta)
+editor.input.point_pos=Nokta Konumu
+editor.btn.delete_point=Noktayı Sil
+editor.btn.delete_segment=Segmenti Sil
+
+# Editor| Building Panel
+editor.window.building=Bina Düzenleyici
+editor.label.buildings_click=Binalar: %d — yerleştirmek için haritaya tıkla
+editor.label.building_id=Bina #%d
+editor.input.building_type=Tür
+editor.input.owner_state=Sahip Ülke
+editor.input.city_assign=Şehir
+editor.input.building_pos=Konum
+editor.label.drag_map=Taşımak için haritada sürükle
+editor.label.factory_props=Fabrika Özellikleri
+editor.input.throughput=İşlem Kapasitesi
+editor.input.shipping_threshold=Sevkiyat Eşiği
+editor.label.production_lines_count=Üretim Hatları: %d
+editor.input.equipment=Ekipman
+editor.input.capacity=Kapasite
+editor.btn.remove=Kaldır
+editor.btn.add_production_line=Üretim Hattı Ekle
+editor.label.depot_props=Depo Özellikleri
+editor.input.max_equipment=Maksimum Ekipman Kapasitesi
+editor.input.max_manpower=Maksimum Personel Kapasitesi
+editor.label.military_hq=Ordu Karargâhı
+editor.label.no_additional_props=Ek özellik yok
+editor.btn.delete_building=Binaları Sil
+
+# Editor| Unit Panel
+editor.window.unit=Birim Düzenleyici
+editor.label.units_click=Birimler: %d — yerleştirmek için haritaya tıkla
+editor.label.unit_id=Birim #%d
+editor.input.given_name=Ad
+editor.label.given_name_hint=Birim adı (isteğe bağlı, otomatik oluşturulabilir)
+editor.input.definition=Tanım
+editor.checkbox.fully_formed=Tam Kadro (tam güçle oluştur)
+editor.btn.generate_name=Otomatik İsim Oluştur
+editor.btn.delete_unit=Birim Sil
+
+# Editor| Status Bar
+editor.mode.provinces=Bölgeler
+editor.mode.cities=Şehirler
+editor.mode.urban_areas=Kentsel Alanlar
+editor.mode.roads=Yollar
+editor.mode.buildings=Binalar
+editor.mode.units=Birimler
+editor.mode.nations=Ülkeler
+editor.status.modified=[DEĞİŞTİRİLDİ]
+editor.status.dropper_active=| DAMLATICI AKTİF
+editor.status.add_vertex=| KÖŞE EKLE
+editor.status.no_map=Harita yüklenmedi
+
+# Editor| Help Overlay
+editor.window.controls=Kontroller
+editor.help.navigation=Navigasyon
+editor.help.wasd=WASD / Sağ tık sürükle: Kaydır
+editor.help.scroll=Scroll: Yakınlaştır / Uzaklaştır
+editor.help.selection=Seçim
+editor.help.click=Tıkla: Seç / Yerleştir
+editor.help.shift_click=Shift+Tıkla: Ülke (Bölgeler modunda)
+editor.help.drag=Sürükle: Seçileni taşı
+editor.help.escape=Escape: Seçimi kaldır
+editor.help.ctrl_s=Ctrl+S: Tümünü kaydet
+editor.help.pick=Seçme butonu: Damlalık aracı
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Ülke seçmek için bölgeye tıkla
+
+# Editor| Dropper Button
+editor.btn.picking=Seçiliyor...
+editor.btn.pick=Seç
+editor.tooltip.dropper=Haritadaki bir bölgeye tıklayarak sahip olduğu ülkeyi seç
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Ülke ara...
+editor.hint.search_provinces=Bölge ara...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Bölge Çiz
+editor.label.click_map_vertices=Köşe noktalarını yerleştirmek için haritaya tıkla
+editor.label.vertices_placed=Yerleştirilen köşe sayısı: %d
+editor.input.create_prov_name=Ad##crprov
+editor.input.create_prov_state=Ülke##crprov
+editor.btn.undo_last=Son Köşeyi Geri Al
+editor.btn.finish_province=Bölgeyi Tamamla
+editor.label.or_click_first=Veya şekli kapatmak için ilk köşeye (yeşil nokta) tıkla.
+editor.label.min_3_verts=Tamamlamak için en az 3 köşe yerleştir.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Referans Görsel Özellikleri
+editor.btn.delete=Sil
+editor.btn.unlock=Kilidi Aç
+editor.btn.lock=Kilitle
+editor.btn.hide=Gizle
+editor.btn.show=Göster
+editor.input.opacity=Saydamlık
+editor.input.position=Konum
+editor.input.size=Boyut (G/Y)
+editor.input.scale=Ölçek
+editor.btn.fit_to_map=Haritaya Sığdır
+
+# Editor| Render Settings
+editor.window.render_settings=Görselleştirme Ayarları
+editor.label.tile_textures=Karolama Dokuları
+editor.checkbox.show_tile_textures=Karolama Dokularını Göster
+editor.input.tint_strength=Renk Tonu Gücü
+editor.label.nation_rendering=Ülke Görselleştirme
+editor.checkbox.render_by_nation=Ülke Rengine Göre Göster
+editor.checkbox.show_nation_flags=Ülke Bayraklarını Göster
+editor.tooltip.nation_flags=Ülke bayraklarını bölge merkezlerinin üzerine yerleştirir
+editor.label.layer_opacities=Katman Saydamlıkları
+editor.input.provinces_opacity=Bölgeler
+editor.input.roads_opacity=Yollar
+editor.input.city_dots_opacity=Şehir Noktaları
+editor.input.urban_areas_opacity=Kentsel Alanlar
+editor.input.buildings_opacity=Binalar
+editor.input.units_opacity=Birimler
+editor.btn.reset_all=Hepsini Sıfırla
+
+# Editor| Urban Area Panel
+editor.window.urban=Kentsel Alan Düzenleyici
+editor.label.urban_count=Kentsel Alanlar: %d
+editor.btn.draw_urban=Kentsel Alan Çiz
+editor.label.drawing_urban=Çiziliyor... (%d köşe)
+editor.label.urban_id=Kentsel Alan #%d  (%d sınır köşesi)
+editor.input.urban_name=Ad
+editor.input.urban_state=Sahip Ülke
+editor.input.urban_province=Bölge
+editor.input.urban_pop=Nüfus
+editor.input.filter_urban=Filtrele##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Kentsel Alan Çiz
+editor.input.create_urban_name=Ad##crurban
+editor.input.create_urban_state=Ülke##crurban
+editor.btn.finish_urban=Kentsel Alanı Tamamla
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Ülke Düzenleyici
+editor.label.nations_count=Ülkeler: %d
+editor.input.filter_nations=Ülkeleri filtrele##nations
+editor.label.selected_nation=Seçilen: %s
+editor.input.nation_name_ne=Ülke Adı##ne
+editor.label.provinces_ne=Bölgeler##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Tanım Düzenleyici
+editor.btn.equipment_tab=Ekipman
+editor.btn.units_tab=Birimler
+editor.btn.save_all_def=Tümünü Kaydet
+editor.btn.close=Kapat
+editor.label.background_icons=Arka Plan Simgeleri
