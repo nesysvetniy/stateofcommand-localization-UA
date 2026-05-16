@@ -246,33 +246,33 @@ editor.btn.generate_name=Nimeä Automaattisesti
 editor.btn.delete_unit=Poista Yksikkö
 
 # Editor| Status Bar
-editor.mode.provinces=Provinces
-editor.mode.cities=Cities
-editor.mode.urban_areas=Urban Areas
-editor.mode.roads=Roads
-editor.mode.buildings=Buildings
-editor.mode.units=Units
-editor.mode.nations=Nations
-editor.status.modified=[MODIFIED]
+editor.mode.provinces=Maakunnat
+editor.mode.cities=Kaupungit
+editor.mode.urban_areas=Kaupunkialueet
+editor.mode.roads=Tiet
+editor.mode.buildings=Rakennukset
+editor.mode.units=Yksiköt
+editor.mode.nations=Valtiot
+editor.status.modified=[MUOKATTU]
 editor.status.dropper_active=| DROPPER ACTIVE
-editor.status.add_vertex=| ADD VERTEX
-editor.status.no_map=No map loaded
+editor.status.add_vertex=| LISÄÄ KÄRKIPISTE
+editor.status.no_map=Ei karttaa ladattuna
 
 # Editor| Help Overlay
-editor.window.controls=Controls
-editor.help.navigation=Navigation
-editor.help.wasd=WASD / Right-drag: Pan
-editor.help.scroll=Scroll: Zoom
-editor.help.selection=Selection
-editor.help.click=Click: Select / Place
-editor.help.shift_click=Shift+Click: Nation (Prov mode)
-editor.help.drag=Drag: Move selected
-editor.help.escape=Escape: Deselect
-editor.help.ctrl_s=Ctrl+S: Save all
-editor.help.pick=Pick button: Dropper tool
+editor.window.controls=Näppäinaseutkset
+editor.help.navigation=Navigointi
+editor.help.wasd=WASD / Oikea hiirennappi: Vedä
+editor.help.scroll=hiiren rulla: loitonna/lähennä
+editor.help.selection=Valinta
+editor.help.click=Napsautus: Valitse / Aseta
+editor.help.shift_click=Vaihto+Napsautus: Valtio (Maakuntatila)
+editor.help.drag=Vieritys: Liikuta Valittua
+editor.help.escape=Escape: Poista valinta
+editor.help.ctrl_s=Ctrl+S: Tallenna kaikki
+editor.help.pick=Poimintanappi: asettamistyökalu
 
 # Editor| Dropper Overlay
-editor.dropper.click_province=Click province to pick state
+editor.dropper.click_province=Napsauta maakuntaa valitaksesi valtio
 
 # Editor| Dropper Button
 editor.btn.picking=Picking...
