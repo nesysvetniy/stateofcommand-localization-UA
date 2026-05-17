@@ -1,0 +1,371 @@
+# -------------------------------------
+# State of Command: Urdu locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=گیم شروع کریں
+menu.button.profile=پروفائل
+menu.button.settings=ترتیبات
+menu.button.quit=باہر نکلیں
+menu.intro.presented_by=آپ کی خدمت میں پیش کردہ
+menu.intro.layth_issam_elzaim=ل ی ث  ع ص ا م  ا ل ز ع ی م 
+# You can transliterate or get the equivalent of my name in your language, 
+#make sure to do a space between each character that is next to each other, 
+#and double space where there would normally be 1 space.
+
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=ترتیبات
+ui.settings.tab.graphics=گرافکس
+ui.settings.tab.language=زبان
+ui.settings.tab.game_visuals=گیم کے مناظر
+
+ui.settings.resolution=ریزولیوشن
+ui.settings.window_mode=ونڈو موڈ
+
+ui.settings.language=زبان
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=سفارت کاری
+ui.button.economy=معیشت
+ui.button.unset=غیر متعین
+ui.button.military=فوج
+
+# UI Manager| Country Select
+ui.button.play_as=کے طور پر کھیلیں
+
+# UI Manager| Settings
+ui.window.settings=ترتیبات
+ui.settings.secondary_icons=ثانوی یونٹ آئیکنز استعمال کریں
+ui.settings.flag_zoom_out=زوم آؤٹ پر جھنڈا دکھائیں (یونٹس)
+ui.settings.nation_overlay=نیشن اوورلے (N)
+ui.settings.always_flag=یونٹس پر ہمیشہ جھنڈا دکھائیں (F)
+ui.settings.unit_size=یونٹ کا سائز
+
+# UI Manager| City tab (single city)
+ui.label.pop=آبادی: %d
+ui.label.buildings=عمارتیں:
+ui.label.no_buildings=کوئی عمارت نہیں
+ui.label.construct=تعمیر کریں:
+ui.button.factory=فیکٹری
+ui.button.military_hq=ملٹری ہیڈکوارٹر
+ui.button.depot=ڈپو
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu شہر منتخب کیے گئے
+ui.label.total_buildings=کل عمارتیں:
+ui.label.no_buildings_selected=منتخب شہروں میں کوئی عمارت نہیں
+ui.button.create_units=یونٹس بنائیں
+ui.button.construct_buildings=عمارتیں تعمیر کریں
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=صنعتی فیکٹری
+ui.building.production_lines=پروڈکشن لائنیں:
+ui.building.inventory=انوینٹری:
+ui.building.no_items=کوئی آئٹم نہیں
+ui.button.add_production_line=پروڈکشن لائن شامل کریں
+ui.building.military_hq_title=ملٹری ہیڈکوارٹر
+ui.button.spawn_unit=یونٹ تیار کریں
+ui.building.supply_depot=سپلائی ڈپو
+ui.building.stored_equipment=ذخیرہ شدہ سامان:
+ui.label.empty=خالی
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=یونٹ کی قسم منتخب کریں:
+ui.button.cancel=منسوخ کریں
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=کوئی سامان نہیں
+ui.tooltip.morale=مورال: %.1f
+ui.tooltip.retreat_behavior=پسپائی کا رویہ: %s
+ui.retreat.normal=عام
+ui.retreat.hold_position=پوزیشن برقرار رکھیں
+ui.retreat.fallback=پیچھے ہٹیں
+ui.tooltip.forming=تشکیل دی جا رہی ہے: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=انویژن موڈ ایکٹو
+ui.invasion.draw_line=منصوبہ بندی کے لیے جارحانہ لکیر کھینچیں
+ui.invasion.toggle_off=بند کرنے کے لیے 'I' دبائیں
+ui.button.execute=عمل کریں
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=عمارت تعمیر کریں
+ui.label.construct_building=عمارت تعمیر کریں:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=آپ کی قوم:
+ui.diplomacy.status_ally=اتحادی
+ui.diplomacy.status_war=حالت جنگ
+ui.diplomacy.status_neutral=غیر جانبدار
+ui.diplomacy.button_ally=اتحاد کا اعلان کریں
+ui.diplomacy.button_war=جنگ کا اعلان کریں
+ui.diplomacy.button_break_alliance=اتحاد توڑیں
+ui.diplomacy.button_peace=امن کا اعلان کریں
+ui.diplomacy.info_tooltip=بند کرنے کے لیے نقشے پر رائٹ کلک کریں
+
+# Editor| Top Bar
+editor.btn.provinces=صوبے
+editor.btn.cities=شہر
+editor.btn.urban=شہری
+editor.btn.roads=سڑکیں
+editor.btn.buildings=عمارتیں
+editor.btn.units=یونٹس
+editor.btn.nations=قومیں
+editor.btn.draw_province=صوبہ بنائیں
+editor.btn.definitions=تعریفیں
+editor.btn.ref=+ حوالہ
+editor.tooltip.render_settings=رینڈر ترتیبات
+editor.label.modified=[ترمیم شدہ]
+editor.label.no_map=کوئی نقشہ لوڈ نہیں ہوا — میپ سیٹ لوڈ کرنے کے لیے ریسورس براؤزر کھولیں
+
+# Editor| Resource Browser
+editor.window.resource_browser=ریسورس براؤزر
+editor.tab.maps=نقشے
+editor.tab.units=یونٹس
+editor.tab.flags=جھنڈے
+editor.btn.refresh=ریفریش کریں
+editor.btn.load_map=نقشہ لوڈ کریں
+editor.btn.save_map=نقشہ محفوظ کریں
+editor.btn.load_unit_set=یونٹ سیٹ لوڈ کریں
+editor.btn.save_flags=جھنڈے محفوظ کریں
+editor.btn.load_flag_set=فلیگ سیٹ لوڈ کریں
+editor.btn.duplicate=ڈپلیکیٹ کریں
+editor.btn.save_to=میں محفوظ کریں...
+editor.hint.new_set_name=نئے سیٹ کا نام...
+editor.btn.create=بنائیں
+editor.btn.save_all=سب محفوظ کریں (Ctrl+S)
+editor.label.unsaved=غیر محفوظ تبدیلیاں!
+editor.hint.or_new_name=یا نیا نام ٹائپ کریں...
+editor.btn.save=محفوظ کریں
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=ڈپلیکیٹ سیٹ
+editor.popup.duplicate_format=%s سیٹ ڈپلیکیٹ کریں
+editor.popup.new_name_label=نیا نام
+editor.btn.duplicate_confirm=ڈپلیکیٹ
+editor.btn.cancel=منسوخ کریں
+editor.popup.save_to_title=سیٹ میں محفوظ کریں
+editor.popup.save_to_format=موجودہ ڈیٹا کو %s سیٹ میں محفوظ کریں:
+editor.set_type.map=نقشہ
+editor.set_type.unit=یونٹ
+editor.set_type.flag=جھنڈا
+
+# Editor| Province Panel
+editor.window.province=صوبے کی خصوصیات
+editor.label.province_id=صوبہ آئی ڈی: %d
+editor.input.province_name=صوبے کا نام
+editor.input.owning_nation=مالک قوم
+editor.input.assign_nation=قوم کو تفویض کریں
+editor.label.vertices=ورٹیسز: %d  (سرحد: %d)
+editor.label.vertex_info=ورٹیکس #%d  (%.6f, %.6f)
+editor.input.vertex_pos=پوزیشن
+editor.label.belongs_to=کا تعلق صوبے سے ہے: %d (%s)
+editor.input.reassign_id=صوبہ آئی ڈی دوبارہ تفویض کریں
+editor.btn.reassign=ورٹیکس دوبارہ تفویض کریں
+editor.btn.remove_vertex=ورٹیکس ہٹائیں
+editor.label.interior_vertex=(اندرونی ورٹیکس)
+editor.label.min_verts=(کم از کم 3 ورٹیسز)
+editor.label.province_management=صوبے کا انتظام
+editor.btn.stop_adding=شامل کرنا بند کریں
+editor.btn.add_vertex=ورٹیکس شامل کریں
+editor.label.click_boundary=داخل کرنے کے لیے سرحد پر کلک کریں
+editor.btn.draw_new_province=نیا صوبہ بنائیں
+editor.label.drawing_verts=ڈرائنگ... (%d ورٹیسز)
+editor.btn.delete_province=یہ صوبہ حذف کریں
+
+# Editor| Nation Panel
+editor.window.nation=قوم کی خصوصیات
+editor.label.nation_hash=ہیش: %u  صوبے: %d
+editor.input.nation_name=قوم کا نام
+editor.label.no_flag=(کوئی جھنڈا نہیں)
+editor.label.flag_set=فلیگ سیٹ: %s
+editor.btn.change_flag=جھنڈا تبدیل کریں...
+editor.label.allies=اتحادی
+editor.btn.add_ally=اتحادی شامل کریں
+editor.label.enemies=دشمن
+editor.btn.add_enemy=دشمن شامل کریں
+editor.label.province_list_header=صوبوں کی فہرست
+editor.label.state_management=ریاست کا انتظام
+editor.input.new_state_name=ریاست کا نیا نام##newstate
+editor.btn.create_state=ریاست بنائیں
+editor.btn.delete_state=یہ ریاست حذف کریں
+
+# Editor| City Panel
+editor.window.city=سٹی ایڈیٹر
+editor.label.cities_count=شہر: %d
+editor.btn.placing_cities=شہر رکھے جا رہے ہیں...
+editor.btn.place_city=شہر رکھیں
+editor.label.click_map_place=رکھنے کے لیے نقشے پر کلک کریں
+editor.label.city_id=شہر #%d
+editor.input.city_name=نام
+editor.input.city_state=ریاست
+editor.input.city_province=صوبہ
+editor.input.population=آبادی
+editor.input.lon_lat=طول بلد / عرض بلد
+editor.checkbox.urban_area=شہری علاقہ
+editor.label.world_coords=دنیا: (%.4f, %.4f)
+editor.btn.delete_city=شہر حذف کریں
+editor.input.filter=فلٹر
+
+# Editor| Road Panel
+editor.window.road=روڈ ایڈیٹر
+editor.label.segments=حصے: %d
+editor.btn.new_segment=نیا حصہ
+editor.label.add_mode=ایڈ موڈ
+editor.btn.stop=روکیں
+editor.btn.add_points=پوائنٹس شامل کریں
+editor.label.segment_info=حصہ #%d (%d پوائنٹس)
+editor.input.point_pos=پوائنٹ کی پوزیشن
+editor.btn.delete_point=پوائنٹ حذف کریں
+editor.btn.delete_segment=حصہ حذف کریں
+
+# Editor| Building Panel
+editor.window.building=بلڈنگ ایڈیٹر
+editor.label.buildings_click=عمارتیں: %d  — رکھنے کے لیے نقشے پر کلک کریں
+editor.label.building_id=عمارت #%d
+editor.input.building_type=قسم
+editor.input.owner_state=مالک ریاست
+editor.input.city_assign=شہر
+editor.input.building_pos=پوزیشن
+editor.label.drag_map=منتقل کرنے کے لیے نقشے پر کھینچیں
+editor.label.factory_props=فیکٹری کی خصوصیات
+editor.input.throughput=تھرو پٹ کی صلاحیت
+editor.input.shipping_threshold=شپنگ کی حد
+editor.label.production_lines_count=پروڈکشن لائنیں: %d
+editor.input.equipment=سامان
+editor.input.capacity=صلاحیت
+editor.btn.remove=ہٹائیں
+editor.btn.add_production_line=پروڈکشن لائن شامل کریں
+editor.label.depot_props=ڈپو کی خصوصیات
+editor.input.max_equipment=سامان کی زیادہ سے زیادہ صلاحیت
+editor.input.max_manpower=افرادی قوت کی زیادہ سے زیادہ صلاحیت
+editor.label.military_hq=ملٹری ہیڈکوارٹر
+editor.label.no_additional_props=کوئی اضافی خصوصیات نہیں
+editor.btn.delete_building=عمارت حذف کریں
+
+# Editor| Unit Panel
+editor.window.unit=یونٹ ایڈیٹر
+editor.label.units_click=یونٹس: %d  — رکھنے کے لیے نقشے پر کلک کریں
+editor.label.unit_id=یونٹ #%d
+editor.input.given_name=نام
+editor.label.given_name_hint=یونٹ کا نام (ضروری نہیں، خود بخود تیار ہو جائے گا)
+editor.input.definition=تعریف
+editor.checkbox.fully_formed=مکمل طور پر تشکیل دیا گیا (پوری طاقت پر ظاہر ہو)
+editor.btn.generate_name=آٹو نام
+editor.btn.delete_unit=یونٹ حذف کریں
+
+# Editor| Status Bar
+editor.mode.provinces=صوبے
+editor.mode.cities=شہر
+editor.mode.urban_areas=شہری علاقے
+editor.mode.roads=سڑکیں
+editor.mode.buildings=عمارتیں
+editor.mode.units=یونٹس
+editor.mode.nations=قومیں
+editor.status.modified=[ترمیم شدہ]
+editor.status.dropper_active=| ڈراپر ایکٹو
+editor.status.add_vertex=| ورٹیکس شامل کریں
+editor.status.no_map=کوئی نقشہ لوڈ نہیں ہوا
+
+# Editor| Help Overlay
+editor.window.controls=کنٹرولز
+editor.help.navigation=نیویگیشن
+editor.help.wasd=WASD / رائٹ ڈریگ: پین
+editor.help.scroll=سکرول: زوم
+editor.help.selection=انتخاب
+editor.help.click=کلک: منتخب کریں / رکھیں
+editor.help.shift_click=Shift+Click: قوم (صوبہ موڈ)
+editor.help.drag=ڈریگ: منتخب شدہ کو منتقل کریں
+editor.help.escape=Escape: غیر منتخب کریں
+editor.help.ctrl_s=Ctrl+S: سب محفوظ کریں
+editor.help.pick=پک بٹن: ڈراپر ٹول
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=ریاست کو منتخب کرنے کے لیے صوبے پر کلک کریں
+
+# Editor| Dropper Button
+editor.btn.picking=منتخب کیا جا رہا ہے...
+editor.btn.pick=منتخب کریں
+editor.tooltip.dropper=نقشے پر کسی صوبے کے مالک کی ریاست منتخب کرنے کے لیے اس پر کلک کریں
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=قومیں تلاش کریں...
+editor.hint.search_provinces=صوبے تلاش کریں...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=صوبہ بنائیں
+editor.label.click_map_vertices=ورٹیسز رکھنے کے لیے نقشے پر کلک کریں
+editor.label.vertices_placed=رکھے گئے ورٹیسز: %d
+editor.input.create_prov_name=نام##crprov
+editor.input.create_prov_state=ریاست##crprov
+editor.btn.undo_last=آخری ورٹیکس کو کالعدم کریں
+editor.btn.finish_province=صوبہ مکمل کریں
+editor.label.or_click_first=یا شکل بند کرنے کے لیے پہلے ورٹیکس (سبز نقطہ) کے قریب کلک کریں۔
+editor.label.min_3_verts=مکمل کرنے کے لیے کم از کم 3 ورٹیسز رکھیں۔
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=حوالہ تصویر کی خصوصیات
+editor.btn.delete=حذف کریں
+editor.btn.unlock=ان لاک کریں
+editor.btn.lock=لاک کریں
+editor.btn.hide=چھپائیں
+editor.btn.show=دکھائیں
+editor.input.opacity=دھندلاپن
+editor.input.position=پوزیشن
+editor.input.size=سائز (چوڑائی/اونچائی)
+editor.input.scale=سکیل
+editor.btn.fit_to_map=نقشے پر فٹ کریں
+
+# Editor| Render Settings 
+editor.window.render_settings=رینڈر ترتیبات
+editor.label.tile_textures=ٹائل ٹیکسچر
+editor.checkbox.show_tile_textures=ٹائل ٹیکسچر دکھائیں
+editor.input.tint_strength=ٹنٹ کی طاقت
+editor.label.nation_rendering=نیشن رینڈرنگ
+editor.checkbox.render_by_nation=قوم کے رنگ کے مطابق رینڈر کریں
+editor.checkbox.show_nation_flags=قوموں کے جھنڈے دکھائیں
+editor.tooltip.nation_flags=قوم کے علاقے کے مرکز پر جھنڈے رینڈر کریں
+editor.label.layer_opacities=لیئر کا دھندلاپن
+editor.input.provinces_opacity=صوبے
+editor.input.roads_opacity=سڑکیں
+editor.input.city_dots_opacity=شہر کے نقطے
+editor.input.urban_areas_opacity=شہری علاقے
+editor.input.buildings_opacity=عمارتیں
+editor.input.units_opacity=یونٹس
+editor.btn.reset_all=سب ری سیٹ کریں
+
+# Editor| Urban Area Panel
+editor.window.urban=اربن ایریا ایڈیٹر
+editor.label.urban_count=شہری علاقے: %d
+editor.btn.draw_urban=شہری علاقہ بنائیں
+editor.label.drawing_urban=ڈرائنگ... (%d ورٹیسز)
+editor.label.urban_id=شہری علاقہ #%d  (%d سرحدی ورٹیسز)
+editor.input.urban_name=نام
+editor.input.urban_state=مالک ریاست
+editor.input.urban_province=صوبہ
+editor.input.urban_pop=آبادی
+editor.input.filter_urban=فلٹر##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=شہری علاقہ بنائیں
+editor.input.create_urban_name=نام##crurban
+editor.input.create_urban_state=ریاست##crurban
+editor.btn.finish_urban=شہری علاقہ مکمل کریں
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=نیشن ایڈیٹر
+editor.label.nations_count=قومیں: %d
+editor.input.filter_nations=فلٹر##nations
+editor.label.selected_nation=منتخب شدہ: %s
+editor.input.nation_name_ne=قوم کا نام##ne
+editor.label.provinces_ne=صوبے##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=ڈیفینیشن ایڈیٹر
+editor.btn.equipment_tab=سامان
+editor.btn.units_tab=یونٹس
+editor.btn.save_all_def=سب محفوظ کریں
+editor.btn.close=بند کریں
+editor.label.background_icons=پس منظر کے آئیکنز
