@@ -1,0 +1,360 @@
+# -------------------------------------
+# State of Command: Greek locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Έναρξη Παιχνιδιού
+menu.button.profile=Προφίλ
+menu.button.settings=Ρυθμίσεις
+menu.button.quit=Έξοδος
+menu.intro.presented_by=Παρουσιάζεται από τον
+
+# Main Menu Settings
+menu.settings.title=Ρυθμίσεις
+menu.settings.language=Γλώσσα
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Διπλωματία
+ui.button.economy=Οικονομία
+ui.button.unset=Αποεπιλογή
+ui.button.military=Ένοπλες Δυνάμεις
+
+# UI Manager| Country Select
+ui.button.play_as=Παίξτε ως
+
+# UI Manager| Settings
+ui.window.settings=Ρυθμίσεις
+ui.settings.secondary_icons=Χρήση Δευτερευόντων Εικόνων Μονάδων
+ui.settings.flag_zoom_out=Εμφάνιση Σημαίας κατά την σμίκρυνση (Μονάδες)
+ui.settings.nation_overlay=Μενού Χώρας (N)
+ui.settings.always_flag=Μόνιμη Προβολή της Σημαίας στις Μονάδες (F)
+ui.settings.unit_size=Μέγεθος Μονάδας
+
+# UI Manager| City tab (single city)
+ui.label.pop=Pop: %d
+ui.label.buildings=Κτήρια:
+ui.label.no_buildings=Δεν υπάρχουν κτήρια
+ui.label.construct=Κατασκευή:
+ui.button.factory=Εργοστάσιο
+ui.button.military_hq=Στρατηγείο
+ui.button.depot=Αποθήκη εφοδίων
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu πόλεις επιλεγμένες
+ui.label.total_buildings=Σύνολο κτηρίων:
+ui.label.no_buildings_selected=Δεν υπάρχουν κτήρια στις επιλεγμένες πόλεις
+ui.button.create_units=Δημιουργία Μονάδων
+ui.button.construct_buildings=Κατασκευή Κτηρίων
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Βιομηχανικό Εργοστάσιο
+ui.building.production_lines=Γραμμές Παραγωγής:
+ui.building.inventory=Εμπορεύματα:
+ui.building.no_items=Δεν υπάρχουν αντικείμενα
+ui.button.add_production_line=Πρόσθεση Γραμμής Παραγωγής
+ui.building.military_hq_title=Στρατηγείο
+ui.button.spawn_unit=Δημιουργία Μονάδας
+ui.building.supply_depot=Αποθήκη Εφοδιασμού
+ui.building.stored_equipment=Αποθηκευμένος Εξοπλισμός:
+ui.label.empty=Άδειο
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Επιλογή Τύπου Μονάδας:
+ui.button.cancel=Ακύρωση
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Δεν υπάρχει εξοπλισμός
+ui.tooltip.morale=Morale: %.1f
+ui.tooltip.retreat_behavior=Τάση Οπισθοχώρισης: %s
+ui.retreat.normal=Κανονική
+ui.retreat.hold_position=Διατήρηση Θέσης
+ui.retreat.fallback=Οπισθοχώριση
+ui.tooltip.forming=ΣΧΗΜΑΤΙΣΜΟΣ: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=ΛΕΙΤΟΥΡΓΙΑ ΕΙΣΒΟΛΗΣ ΕΝΕΡΓΗ
+ui.invasion.draw_line=Σχεδιάστε γραμμή επίθεσης
+ui.invasion.toggle_off=Πατήστε 'I' για απενεργοποίηση
+ui.button.execute=ΕΚΤΕΛΕΣΗ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Κατασκευή κτηρίου
+ui.label.construct_building=Κατασκευή κτηρίου:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Το Κράτος σας:
+ui.diplomacy.status_ally=ΣΥΜΜΑΧΟΣ
+ui.diplomacy.status_war=ΣΕ ΠΟΛΕΜΟ
+ui.diplomacy.status_neutral=Ουδετερότητα
+ui.diplomacy.button_ally=Κήρυξη Συμμαχίας
+ui.diplomacy.button_war=Κήρυξη Πολέμου
+ui.diplomacy.button_break_alliance=Διακοπή Συμμαχίας
+ui.diplomacy.button_peace=Κήρυξη Ειρήνης
+ui.diplomacy.info_tooltip=Κάντε δεξί-κλικ στον χάρτη για να τον κλείσετε
+
+# Editor| Top Bar
+editor.btn.provinces=Επαρχίες
+editor.btn.cities=Πόλεις
+editor.btn.urban=Αστικό περιβάλλον
+editor.btn.roads=Δρόμοι
+editor.btn.buildings=Κτήρια
+editor.btn.units=Μονάδες
+editor.btn.nations=Κράτη
+editor.btn.draw_province=Σχεδίαση Επαρχίας
+editor.btn.definitions=Definitions
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Ρυθμίσεις γραφικών
+editor.label.modified=[ΤΡΟΠΟΠΟΙΗΜΕΝΟ]
+editor.label.no_map=Δεν έχει φορτωθεί χάρτης - Ανοίξτε τη λίστα πόρων για να φορτώσετε ένα σετ χάρτη
+
+# Editor| Resource Browser
+editor.window.resource_browser=Λίστα Πόρων
+editor.tab.maps=Χάρτες
+editor.tab.units=Μονάδες
+editor.tab.flags=Σημαίες
+editor.btn.refresh=Ανανέωση
+editor.btn.load_map=Φόρτωση Χάρτη
+editor.btn.save_map=Αποθήκευση Χάρτη
+editor.btn.load_unit_set=Φόρτωση σετ Μονάδων
+editor.btn.save_flags=Αποθήκευση Σημαιών
+editor.btn.load_flag_set=Φόρτωση σετ Σημαιών
+editor.btn.duplicate=Αντιγραφή
+editor.btn.save_to=Αποθήκευση σε...
+editor.hint.new_set_name=Νέο όνομα σετ...
+editor.btn.create=Δημιουργία
+editor.btn.save_all=Αποθήκευση Όλων (Ctrl+S)
+editor.label.unsaved=Μη αποθηκευμένες αλλαγές!
+editor.hint.or_new_name=Η πληκτρολογίστε νέο όνομα...
+editor.btn.save=Αποθήκευση
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Αντιγραφή Σετ
+editor.popup.duplicate_format=Αντιγραφή %s Σετ
+editor.popup.new_name_label=Νέο Όνομα
+editor.btn.duplicate_confirm=Αντιγραφή
+editor.btn.cancel=Ακύρωση
+editor.popup.save_to_title=Αποθήκευση στο Σετ
+editor.popup.save_to_format=Αποθήκευση τωρινών δεδομένων σε ένα %s σετ:
+editor.set_type.map=Χάρτης
+editor.set_type.unit=Μονάδα
+editor.set_type.flag=Σημαία
+
+# Editor| Province Panel
+editor.window.province=Στοιχεία Επαρχίας
+editor.label.province_id=ID Επαρχίας: %d
+editor.input.province_name=Όνομα Επαρχίας
+editor.input.owning_nation=Ανήκει στο κράτος
+editor.input.assign_nation=Απονομή σε κράτος
+editor.label.vertices=Κορυφές: %d  (Όριο: %d)
+editor.label.vertex_info=Κορυφή γωνίας #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Θέση
+editor.label.belongs_to=Ανήκει στην επαρχία: %d (%s)
+editor.input.reassign_id=Εκ νέου ανάθεση σε ID Επαρχίας
+editor.btn.reassign=Επαναπροσδιορισμός Κορυφής
+editor.btn.remove_vertex=Διαγραφή Κορυφής
+editor.label.interior_vertex=(Εσωτερική Κορυφή)
+editor.label.min_verts=(Τουλάχιστον 3 verts)
+editor.label.province_management=Διαχείριση Επαρχίας
+editor.btn.stop_adding=Τέλος Πρόσθεσης
+editor.btn.add_vertex=Πρόσθεση Κορυφής
+editor.label.click_boundary=Πατήστε στο όριο για να προσθέσετε
+editor.btn.draw_new_province=Σχεδιάστε Νέα Επαρχία
+editor.label.drawing_verts=Σχεδίαση... (%d verts)
+editor.btn.delete_province=Διαγραφή Επαρχίας
+
+# Editor| Nation Panel
+editor.window.nation=Στοιχεία Κράτους
+editor.label.nation_hash=Hash: %u  Επαρχίες: %d
+editor.input.nation_name=Όνομα Κράτους
+editor.label.no_flag=(Δεν υπάρχει Σημαία)
+editor.label.flag_set=Σετ Σημαίας: %s
+editor.btn.change_flag=Αλλαγή Σημαίας...
+editor.label.allies=Σύμμαχοι
+editor.btn.add_ally=Πρόσθεση Συμμάχου
+editor.label.enemies=Εχθροί
+editor.btn.add_enemy=Πρόσθεση Εχθρού
+editor.label.province_list_header=Λίστα Επαρχιών
+editor.label.state_management=Διαχείριση Νομών 
+editor.input.new_state_name=Νέο Όνομα Νομού##newstate
+editor.btn.create_state=Δημιουργία Νομού
+editor.btn.delete_state=Διαγραφή Νομού
+
+# Editor| City Panel
+editor.window.city=Ρύθμιση Πόλεων
+editor.label.cities_count=Πόλεις: %d
+editor.btn.placing_cities=Τοποθέτηση Πόλεων...
+editor.btn.place_city=Τοποθέτηση Πόλης
+editor.label.click_map_place=Πατήστε στον χάρτη για να τοποθετήσετε
+editor.label.city_id=Πόλη #%d
+editor.input.city_name=Όνομα
+editor.input.city_state=Νομός
+editor.input.city_province=Επαρχία
+editor.input.population=Πληθυσμός
+editor.input.lon_lat=Μήκ / Πλάτ
+editor.checkbox.urban_area=Αστική Περιοχή
+editor.label.world_coords=Κόσμος: (%.4f, %.4f)
+editor.btn.delete_city=Διαγραφή Πόλης
+editor.input.filter=Φίλτρο
+
+# Editor| Road Panel
+editor.window.road=Ρύθμιση Δρόμων
+editor.label.segments=Τμήματα: %d
+editor.btn.new_segment=Νέο Τμήμα
+editor.label.add_mode=ΠΡΟΣΘΗΚΗ ΛΕΙΤΟΥΡΓΙΑΣ
+editor.btn.stop=Τέλος
+editor.btn.add_points=Προσθήκη Σημείων
+editor.label.segment_info=Τμήμα #%d (%d pts)
+editor.input.point_pos=Θέση Σημείου
+editor.btn.delete_point=Διαγραφή Σημείου
+editor.btn.delete_segment=Διαγραφή Τμήματος
+
+# Editor| Building Panel
+editor.window.building=Ρύθμιση Κτηρίων
+editor.label.buildings_click=Κτήρια: %d  — Πατήστε στον χάρτη για να τοποθετήσετε
+editor.label.building_id=Κτήριο #%d
+editor.input.building_type=Τύπος
+editor.input.owner_state=Ανήκει στο κράτος
+editor.input.city_assign=Πόλη
+editor.input.building_pos=Θέση
+editor.label.drag_map=Σύρετε στον χάρτη για να μετακινήσετε
+editor.label.factory_props=Στοιχεία Εργοστασίου
+editor.input.throughput=Ικανότητα Παραγωγής
+editor.input.shipping_threshold=Όριο Αποστολής
+editor.label.production_lines_count=Γραμμές Παραγωγής: %d
+editor.input.equipment=Εξοπλισμός
+editor.input.capacity=Χωρητικότητα
+editor.btn.remove=Διαγραφή
+editor.btn.add_production_line=Πρόσθεση Γραμμής Παραγωγής
+editor.label.depot_props=Στοιχεία αποθήκης εφοδίων
+editor.input.max_equipment=Μέγιστη Χωρητικότητα Εξοπλισμού
+editor.input.max_manpower=Μέγιστο Εργατικό Δυναμικό
+editor.label.military_hq=Στρατηγείο
+editor.label.no_additional_props=Δεν υπάρχουν επιπλέον στοιχεία
+editor.btn.delete_building=Διαγραφή κτηρίου
+
+# Editor| Unit Panel
+editor.window.unit=Ρυθμίσεις Μονάδων
+editor.label.units_click=Μονάδες: %d  — Πατήστε στον χάρτη για να τοποθετήσετε
+editor.label.unit_id=Μονάδα #%d
+editor.input.given_name=Όνομα
+editor.label.given_name_hint=Όνομα Μονάδας (Προαιρετικό, θα δημιουργηθεί αυτόματα)
+editor.input.definition=Ορισμός
+editor.checkbox.fully_formed=Πλήρως Σχηματισμένο (Αναπτύσσεται με τη μέγιστη δύναμη)
+editor.btn.generate_name=Αυτόματο όνομα
+editor.btn.delete_unit=Διαγραφή Μονάδας
+
+# Editor| Status Bar
+editor.mode.provinces=Επαρχίες
+editor.mode.cities=Πόλεις
+editor.mode.urban_areas=Αστικές Περιοχές
+editor.mode.roads=Δρόμοι
+editor.mode.buildings=Κτήρια
+editor.mode.units=Μονάδες
+editor.mode.nations=Κράτη
+editor.status.modified=[ΤΡΟΠΟΠΟΙΗΜΕΝΟ]
+editor.status.dropper_active=| DROPPER ΕΝΕΡΓΟ
+editor.status.add_vertex=| ΠΡΟΣΘΗΚΗ ΚΟΡΥΦΗΣ
+editor.status.no_map=Δεν έχει φορτωθεί χάρτης
+
+# Editor| Help Overlay
+editor.window.controls=Χειρισμός
+editor.help.navigation=Πλοήγηση
+editor.help.wasd=WASD / Δεξί-σύρσιμο: οριζόντια κίνηση
+editor.help.scroll=Ροδέλα: Μεγέθυνση
+editor.help.selection=Επιλογή
+editor.help.click=Click: Επίλεξε / Τοποθέτησε
+editor.help.shift_click=Shift+Κλίκ: Κράτος (Λειτουργία Prov)
+editor.help.drag=Σύρσιμο: Επιλέχθηκε κίνηση
+editor.help.escape=Escape: Αποεπιλογή
+editor.help.ctrl_s=Ctrl+S: Αποθήκευση Όλων
+editor.help.pick=Επιλογή κουμπιού: Εργαλείο Dropper
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Κάντε κλικ σε επαρχία για να επιλέξετε νομό
+
+# Editor| Dropper Button
+editor.btn.picking=Επιλογή...
+editor.btn.pick=Επιλογή
+editor.tooltip.dropper=Κάντε κλικ σε μια επαρχία στον χάρτη για να επιλέξετε το κράτος στο οποίο ανήκει
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Αναζήτηση κρατών...
+editor.hint.search_provinces=Αναζήτηση επαρχιών...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Σχεδίαση Επαρχίας
+editor.label.click_map_vertices=Πατήστε στον χάρτη για να τοποθετήσετε κορυφές
+editor.label.vertices_placed=Τοποθετημένες κορυφές: %d
+editor.input.create_prov_name=Όνομα##crprov
+editor.input.create_prov_state=Νομός##crprov
+editor.btn.undo_last=Ακύρωση Τελευταίας Κορυφής
+editor.btn.finish_province=Τελειοποίηση Επαρχίας
+editor.label.or_click_first=Η πατήστε κοντά στην πρώτη κορυφή (πράσινη τελεία) για να κλείσετε το σχήμα.
+editor.label.min_3_verts=Τοποθετήστε τουλάχιστον τρεις κορυφές για να τελειώσετε.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Ιδιότητες Εικόνας Αναφοράς
+editor.btn.delete=Διαγραφή
+editor.btn.unlock=Ξεκλείδωμα
+editor.btn.lock=Κλείδωμα
+editor.btn.hide=Κρύψιμο
+editor.btn.show=Εμφάνιση
+editor.input.opacity=Αδιαφάνεια
+editor.input.position=Θέση
+editor.input.size=Μέγεθος (Π/Υ)
+editor.input.scale=Κλίμακα
+editor.btn.fit_to_map=Ταίριαξε Στον Χάρτη
+
+# Editor| Render Settings 
+editor.window.render_settings=Ρυθμίσεις Γραφικών
+editor.label.tile_textures=Έδαφος Περιοχών
+editor.checkbox.show_tile_textures=Εμφάνιση Εδάφους Περιοχών
+editor.input.tint_strength=Ισχύς Απόχρωσης
+editor.label.nation_rendering=Ρύθμιση Γραφικών Κράτους
+editor.checkbox.render_by_nation=Εμφάνιση σύμφωνα με το χρώμα του Κράτους
+editor.checkbox.show_nation_flags=Εμφάνιση Σημαιών Κρατών
+editor.tooltip.nation_flags=Εμφάνιση Σημαιών Κράτων πάνω από το κέντρο της επικράτειάς τους
+editor.label.layer_opacities=Αδιαφάνεια επιπέδων
+editor.input.provinces_opacity=Επαρχίες
+editor.input.roads_opacity=Δρόμοι
+editor.input.city_dots_opacity=Σημάδια Πόλεων
+editor.input.urban_areas_opacity=Αστικές Περιοχές
+editor.input.buildings_opacity=Κτήρια
+editor.input.units_opacity=Μονάδες
+editor.btn.reset_all=Επαναφορά Όλων
+
+# Editor| Urban Area Panel
+editor.window.urban=Ρύθμιση Αστικών Περιοχών
+editor.label.urban_count=Αστικές Περιοχές: %d
+editor.btn.draw_urban=Σχεδίαση Αστικής Περιοχής
+editor.label.drawing_urban=Σχεδίαση... (%d verts)
+editor.label.urban_id=Αστική Περιοχή #%d  (%d boundary verts)
+editor.input.urban_name=Όνομα
+editor.input.urban_state=Κράτος Ιδιοκτήτης
+editor.input.urban_province=Επαρχία
+editor.input.urban_pop=Πληθυσμός
+editor.input.filter_urban=Φίλτρο##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Σχεδίαση Αστικής Περιοχής
+editor.input.create_urban_name=Όνομα##crurban
+editor.input.create_urban_state=Κράτος##crurban
+editor.btn.finish_urban=Τελειοποίηση Αστικής Περιοχής
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Ρύθμιση Κρατών
+editor.label.nations_count=Κράτη: %d
+editor.input.filter_nations=Φίλτρο##nations
+editor.label.selected_nation=Επιλεγμένα: %s
+editor.input.nation_name_ne=Όνομα Κράτους##ne
+editor.label.provinces_ne=Επαρχίες##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Ρύθμιση Ορισμού
+editor.btn.equipment_tab=Εξοπλισμός
+editor.btn.units_tab=Μονάδες
+editor.btn.save_all_def=Αποθήκευση Όλων
+editor.btn.close=Κλείσιμο
+editor.label.background_icons=Εικόνες Φόντου
