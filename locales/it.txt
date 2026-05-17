@@ -1,4 +1,3 @@
-```ini id="it_retranslate_v2"
 # -------------------------------------
 # State of Command: Italian locale
 # Format: key=value
