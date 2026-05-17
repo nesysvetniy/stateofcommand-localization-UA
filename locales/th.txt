@@ -1,0 +1,360 @@
+# -------------------------------------
+# State of Command: Thai locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game= เริ่มเกม
+menu.button.profile= โปรไฟล์
+menu.button.settings= การตั้งค่า
+menu.button.quit= ออกเกม
+menu.intro.presented_by= นำเสนอโดย
+
+# Main Menu Settings
+menu.settings.title= การตั้งค่า
+menu.settings.language= ภาษา
+
+# UI Manager| Flag Bar
+ui.button.diplomacy= การทูต
+ui.button.economy= เศรษฐกิจ
+ui.button.unset= Unset
+ui.button.military= การทหาร
+
+# UI Manager| Country Select
+ui.button.play_as= เล่นเป็น
+
+# UI Manager| Settings
+ui.window.settings= การตั้งค่า
+ui.settings.secondary_icons= ใช้สัญญาลักษณ์ยูนิตที่สอง
+ui.settings.flag_zoom_out= โชว์ธงเมื่อซูมออก(Units)
+ui.settings.nation_overlay= การวางทับประเทศ(N)
+ui.settings.always_flag= โชว์ธงบนยูนิตเสมอ (F)
+ui.settings.unit_size=ขนาดยูนิต
+
+# UI Manager| City tab (single city)
+ui.label.pop=ประชากร: %d
+ui.label.buildings= สิ่งปลูกสร้าง:
+ui.label.no_buildings= ไม่มีสิ่งปลูกสร้าง
+ui.label.construct= การก่อสร้าง:
+ui.button.factory= โรงงาน
+ui.button.military_hq= กองบัญชาการ
+ui.button.depot= คลังสินค้า
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu เมืองที่เลือก
+ui.label.total_buildings=สิ่งปลูกสร้างทั้งหมด:
+ui.label.no_buildings_selected= ไม่มีสิ่งปลูกสร้างในเมืองที่เลือก
+ui.button.create_units= สร้างยูนิต
+ui.button.construct_buildings= ก่อสร้างสิ่งปลูกสร้าง
+
+# UI Manager| Building Tab
+ui.building.industrial_factory= โรงงานอุตสาหกรรม
+ui.building.production_lines= เส้นการผลิต:
+ui.building.inventory= ช่องเก็บของ:
+ui.building.no_items=ไม่มีรายการ
+ui.button.add_production_line=เพิ่มเส้นการผลิต
+ui.building.military_hq_title= กองบัญชาการ
+ui.button.spawn_unit= วางยูนิต
+ui.building.supply_depot= คลังเสบียง
+ui.building.stored_equipment= อุปกรณ์ที่จัดเก็บ:
+ui.label.empty= ว่างเปล่า
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type= เลือกชนิดยูนิต:
+ui.button.cancel= ยกเลิก
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment= ไม่มีอุปกรณ์
+ui.tooltip.morale=กำลังใจ: %.1f
+ui.tooltip.retreat_behavior= พฤติกรรมการถอยทัพ: %s
+ui.retreat.normal= ปกติ
+ui.retreat.hold_position= ยันตำแหน่ง
+ui.retreat.fallback= ถอยกลับ
+ui.tooltip.forming= การรวม: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active= โหมดการบุกยึดทำงาน
+ui.invasion.draw_line= วาดเส้นการบุก
+ui.invasion.toggle_off= กด 'I' เพื่อปิดการใช้งาน
+ui.button.execute= ดำเนินการ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building= การก่อสร้างสิ่งปลูกสร้าง
+ui.label.construct_building=การก่อสร้างสิ่งปลูกสร้าง:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation= ประเทศของคุณ:
+ui.diplomacy.status_ally= พันธมิตร
+ui.diplomacy.status_war= คู่สงคราม
+ui.diplomacy.status_neutral= เป็นกลาง
+ui.diplomacy.button_ally= ประกาศความเป็นพันธมิตร
+ui.diplomacy.button_war= ประกาศสงคราม
+ui.diplomacy.button_break_alliance= เลิกเป็นพันธมิตร
+ui.diplomacy.button_peace= ประกาศสันติภาพ
+ui.diplomacy.info_tooltip= คลิกขวาที่แผนที่เพื่อปิด
+
+# Editor| Top Bar
+editor.btn.provinces= จังหวัด
+editor.btn.cities= เมือง
+editor.btn.urban= ในเมือง
+editor.btn.roads= ถนน
+editor.btn.buildings= สิ่งปลูกสร้าง
+editor.btn.units= ยูนิต
+editor.btn.nations= ประเทศ
+editor.btn.draw_province= วาดจังหวัด
+editor.btn.definitions= จำกัดความ
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings= การตั้งค่าการแสดงผล
+editor.label.modified=[แก้ไขแล้ว]
+editor.label.no_map= แผนที่ไม่โหลด — เปิดทรัพยากรบราวเซอร์เพื่อโหลดเซ็ตแผนที่
+
+# Editor| Resource Browser
+editor.window.resource_browser= ทรัพยากรบราวเซอร์
+editor.tab.maps= แผนที่
+editor.tab.units= ยูนิต
+editor.tab.flags= ธง
+editor.btn.refresh= โหลดใหม่
+editor.btn.load_map= โหลดแผนที่
+editor.btn.save_map= บันทึกแผนที่
+editor.btn.load_unit_set= โหลดเซ็ตยูนิต
+editor.btn.save_flags= บันทึกธง
+editor.btn.load_flag_set= โหลดเซ็ตธง
+editor.btn.duplicate= คัดลอก
+editor.btn.save_to= บันทึกไป...
+editor.hint.new_set_name= ชื่อเซ็ตใหม่...
+editor.btn.create= สร้าง
+editor.btn.save_all= บันทึกทั้งหมด(Ctrl+S)
+editor.label.unsaved= ละทิ้งการเปลี่ยนแปลง!
+editor.hint.or_new_name= หรือชื่อใหม่...
+editor.btn.save= บันทึก
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title= เซ็ตคัดลอก
+editor.popup.duplicate_format= คัดลอก %s เซ็ต
+editor.popup.new_name_label= ชื่อใหม่
+editor.btn.duplicate_confirm= คัดลอก
+editor.btn.cancel= ยกเลิก
+editor.popup.save_to_title= บันทึกไปที่เซ็ต
+editor.popup.save_to_format= บันทึกข้อมูลปัจจุบันไปที่ %s set:
+editor.set_type.map= แผนที่
+editor.set_type.unit= ยูนิต
+editor.set_type.flag= ธง
+
+# Editor| Province Panel
+editor.window.province= คุณสมบัติจังหวัด
+editor.label.province_id= จังหวัด ID: %d
+editor.input.province_name= ชื่อจังหวัด
+editor.input.owning_nation= ประเทศที่เป็นเจ้าของ
+editor.input.assign_nation= กำหนดให้ประเทศ
+editor.label.vertices=จุด: %d  (ขอบเขต: %d)
+editor.label.vertex_info=จุด #%d  (%.6f, %.6f)
+editor.input.vertex_pos= ตำแหน่ง
+editor.label.belongs_to= เป็นของจังหวัด: %d (%s)
+editor.input.reassign_id= กำหนดให้จังหวัด ID
+editor.btn.reassign= กำหนดจุดใหม่
+editor.btn.remove_vertex= เอาจุดออก
+editor.label.interior_vertex=(จุดภายใน)
+editor.label.min_verts=(อย่างน้อย 3 จุด)
+editor.label.province_management= การจัดการจังหวัด
+editor.btn.stop_adding= หยุดการเพิ่ม
+editor.btn.add_vertex=เพิ่มจุด
+editor.label.click_boundary=กดที่ขอบเขตแทรก
+editor.btn.draw_new_province= วาดจังหวัดใหม่
+editor.label.drawing_verts=กำลังวาด...(%d จุด)
+editor.btn.delete_province= ลบจังหวัดนี้ออกไป
+
+# Editor| Nation Panel
+editor.window.nation= คุณสมบัติของประเทศ
+editor.label.nation_hash= แบ่ง: %u  จังหวัด: %d
+editor.input.nation_name= ชื่อประเทศ
+editor.label.no_flag=(ไม่มีธง)
+editor.label.flag_set= เซ็ตธง: %s
+editor.btn.change_flag= เปลี่ยนธง...
+editor.label.allies= พันธมิตร
+editor.btn.add_ally=เพิ่มพันธมิตร
+editor.label.enemies= ศัตรู
+editor.btn.add_enemy= เพิ่มศัตรู
+editor.label.province_list_header= รายการจังหวัด
+editor.label.state_management= การจัดการรัฐ
+editor.input.new_state_name= ชื่อรัฐใหม่##newstate
+editor.btn.create_state=สร้างรัฐ
+editor.btn.delete_state=ลบรัฐนี้ออก
+
+# Editor| City Panel
+editor.window.city= ตัวแก้ไขเมือง
+editor.label.cities_count= เมือง: %d
+editor.btn.placing_cities=วางเมือง...
+editor.btn.place_city= วางเมือง
+editor.label.click_map_place= กดที่แผนที่เพื่อวาง
+editor.label.city_id= เมือง #%d
+editor.input.city_name= ชื่อ
+editor.input.city_state= รัฐ
+editor.input.city_province= จังหวัด
+editor.input.population= ประชากร
+editor.input.lon_lat= ลองติจูด / ละติจูด
+editor.checkbox.urban_area= พื้นที่ในเมือง
+editor.label.world_coords=โลก: (%.4f, %.4f)
+editor.btn.delete_city= ลบเมือง
+editor.input.filter= ตัวกรอง
+
+# Editor| Road Panel
+editor.window.road= ตัวแก้ไขถนน
+editor.label.segments= ช่วงถนน: %d
+editor.btn.new_segment=ช่วงถนนใหม่
+editor.label.add_mode=เพิ่มแนว
+editor.btn.stop= หยุด
+editor.btn.add_points= เพิ่มจุด
+editor.label.segment_info= ช่วงถนน #%d (%d pts)
+editor.input.point_pos= จุดตำแหน่ง
+editor.btn.delete_point= ลบจุด
+editor.btn.delete_segment= ลบช่วงถนน
+
+# Editor| Building Panel
+editor.window.building= ตัวแก้ไขสิ่งปลูกสร้าง
+editor.label.buildings_click= สิ่งปลูกสร้าง: %d  — กดที่แผนที่เพื่อวาง
+editor.label.building_id= สิ่งปลูกสร้าง #%d
+editor.input.building_type= ชนิด
+editor.input.owner_state= เจ้าของรัฐ
+editor.input.city_assign= เมือง
+editor.input.building_pos= ตำแหน่ง
+editor.label.drag_map= ลากบนแผนที่เพื่อเคลื่อนที่
+editor.label.factory_props= คุณสมบัติโรงงาน
+editor.input.throughput= อัตราการผลิต
+editor.input.shipping_threshold= เกณฑ์การจัดส่ง
+editor.label.production_lines_count= เส้นการผลิต: %d
+editor.input.equipment= อุปกรณ์
+editor.input.capacity= ความจุ
+editor.btn.remove= เอาออก
+editor.btn.add_production_line= เพิ่มเส้นการผลิต
+editor.label.depot_props= คุณสมบัติการขนส่ง
+editor.input.max_equipment=ความจุสูงสุดของอุปกรณ์
+editor.input.max_manpower= ความจุสูงสุดของกำลังพล
+editor.label.military_hq= กองบัญชาการ
+editor.label.no_additional_props= ไม่มีคุณสมบัติพิเศษ
+editor.btn.delete_building= ลบสิ่งปลูกสร้าง
+
+# Editor| Unit Panel
+editor.window.unit= ตัวแก้ไขยูนิต
+editor.label.units_click= ยูนิต: %d  — กดบนแผนที่เพื่อวาง
+editor.label.unit_id= ยูนิต #%d
+editor.input.given_name= ชื่อ
+editor.label.given_name_hint= ชื่อยูนิต (ไม่บังคับ ระบบจะสร้างโดยอัตโนมัติ)
+editor.input.definition=คำนิยาม
+editor.checkbox.fully_formed= สมบูรณ์แล้ว (วางแบบแข็งแรงสมบูรณ์)
+editor.btn.generate_name=ชื่ออัตโนมัติ
+editor.btn.delete_unit= ลบยูนิต
+
+# Editor| Status Bar
+editor.mode.provinces= จังหวัด
+editor.mode.cities= เมือง
+editor.mode.urban_areas= พื้นที่ในเมือง
+editor.mode.roads= ถนน
+editor.mode.buildings= สิ่งแลูกสร้าง
+editor.mode.units= ยูนิต
+editor.mode.nations= ประเทศ
+editor.status.modified=[แก้ไขแล้ว]
+editor.status.dropper_active=| ดรอปเปอร์ทำงาน
+editor.status.add_vertex=| เพิ่มจุด
+editor.status.no_map= แผนที่ไม่โหลด
+
+# Editor| Help Overlay
+editor.window.controls= ควบคุม
+editor.help.navigation= ตัวนำทาง
+editor.help.wasd=WASD / คลิกขวาลาก: หมุนกล้อง
+editor.help.scroll=Scroll: ซูม
+editor.help.selection= การเลือก
+editor.help.click= กด: เลือก / วาง
+editor.help.shift_click=Shift+กด: ประเทศ (Prov mode)
+editor.help.drag=ลาก: เคลื่อนที่สิ่งที่เลือกไว้
+editor.help.escape= หลบหนี: ยกเลิกการเลือก
+editor.help.ctrl_s=Ctrl+S: บันทึกทั้งหมด
+editor.help.pick=เลือกปุ่ม: เครื่องมือดรอปเปอร์
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=กดที่จังหวัดเพื่อเลือกรัฐ
+
+# Editor| Dropper Button
+editor.btn.picking=กำลังเลือก...
+editor.btn.pick= เลือก
+editor.tooltip.dropper=กดที่จังหวัดเพื่อเลือกเจ้าของรัฐ
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations= ค้นหาประเทศ...
+editor.hint.search_provinces= ค้นหาจังหวัด...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province= วาดจังหวัด
+editor.label.click_map_vertices=กดบนแผนที่เพื่อวางจุด
+editor.label.vertices_placed=จุดที่วางแล้ว: %d
+editor.input.create_prov_name= ชื่อ##crprov
+editor.input.create_prov_state= รัฐ ##crprov
+editor.btn.undo_last= ยกเลิกจุดสุดท้าย
+editor.btn.finish_province= จังหวัดเสร็จสิ้น
+editor.label.or_click_first= หรือกดใกล้จุดแรก (จุดเขียว) เพื่อปิดรูปทรง.
+editor.label.min_3_verts= วางอย่างน้อย 3 จุดเพื่อทำให้เสร็จสมบูรณ์
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image= คุณสมบัติภาพที่อ้างอิง
+editor.btn.delete= ลบ
+editor.btn.unlock= ปลดล็อก
+editor.btn.lock= ล็อก
+editor.btn.hide= ซ่อน
+editor.btn.show= แสดง
+editor.input.opacity= ความทึบ
+editor.input.position=ตำแหน่ง
+editor.input.size= ขนาด (กว้าง/ยาว)
+editor.input.scale= มาตราส่วน
+editor.btn.fit_to_map= ปรับให้เข้ากับแผนที่
+
+# Editor| Render Settings 
+editor.window.render_settings=ประมวลผลการตั้งค่า
+editor.label.tile_textures= พื้นผิวของกระเบื้อง
+editor.checkbox.show_tile_textures= แสดงพื้นผิวของกระเบื้อง
+editor.input.tint_strength= ความเข้มของสี
+editor.label.nation_rendering=กำลังประมวลผลประเทศ
+editor.checkbox.render_by_nation= ประมวลผลโดยสีของประเทศ
+editor.checkbox.show_nation_flags= แสดงธงชาติ
+editor.tooltip.nation_flags=ประมวลผลธงชาติบนพื้นที่ตรงกลาง
+editor.label.layer_opacities= ชั้นความทึบ
+editor.input.provinces_opacity= จังหวัด
+editor.input.roads_opacity= ถนน
+editor.input.city_dots_opacity= จุดเมือง
+editor.input.urban_areas_opacity= พื้นที่ในเมือง
+editor.input.buildings_opacity= สิ่งปลูกสร้าง
+editor.input.units_opacity= ยูนิต
+editor.btn.reset_all= จัดใหม่ทั้งหมด
+
+# Editor| Urban Area Panel
+editor.window.urban= ตัวแก้ไขพื้นที่ในเมือง
+editor.label.urban_count= พื้นที่ในเมือง: %d
+editor.btn.draw_urban= วาดพื้นที่ในเมือง
+editor.label.drawing_urban= กำลังวาด... (%d จุด)
+editor.label.urban_id=พื้นที่ในเมือง #%d  (%d ขอบเขตของจุด)
+editor.input.urban_name= ชื่อ
+editor.input.urban_state= เจ้าของรัฐ
+editor.input.urban_province= จังหวัด
+editor.input.urban_pop= ประชากร
+editor.input.filter_urban= ตัวกรอง##ในเมือง
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban= วาดพื้นที่ในเมือง
+editor.input.create_urban_name= ชื่อ##crurban
+editor.input.create_urban_state= รัฐ##crurban
+editor.btn.finish_urban= พื้นที่ในเมืองเสร็จสิ้น
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor= ตัวแกไข้ประเทศ
+editor.label.nations_count=ประเทศ: %d
+editor.input.filter_nations= ตัวกรอง##ประเทศ
+editor.label.selected_nation= เลือกแล้ว: %s
+editor.input.nation_name_ne= ชื่อประเทศ##ne
+editor.label.provinces_ne= จังหวัด##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor= ตัวแก้ไขคำอธิบาย
+editor.btn.equipment_tab= อุปกรณ์
+editor.btn.units_tab= ยูนิต
+editor.btn.save_all_def= บันทึกทั้งหมด
+editor.btn.close= ปิด
+editor.label.background_icons= สัญญลักษณ์พื้นหลัง
