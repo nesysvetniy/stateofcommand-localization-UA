@@ -26,7 +26,7 @@ ui.button.play_as=Jogar como
 
 # UI Manager| Settings
 ui.window.settings=Configurações
-ui.settings.secondary_icons=Usar icones secundário de unidades
+ui.settings.secondary_icons=Usar ícones secundários de unidades
 ui.settings.flag_zoom_out=Mostrar bandeira em zoom longe (Unidades)
 ui.settings.nation_overlay=Sobreposição de nação (N)
 ui.settings.always_flag=Sempre mostrar bandeiras nas unidades (F)
@@ -49,7 +49,7 @@ ui.button.create_units=Criar unidades
 ui.button.construct_buildings=Construir edifícios
 
 # UI Manager| Building Tab
-ui.building.industrial_factory=Fabrica industrial
+ui.building.industrial_factory=Fábrica industrial
 ui.building.production_lines=Linha de produção:
 ui.building.inventory=Inventário:
 ui.building.no_items=Sem itens
@@ -219,7 +219,7 @@ editor.input.owner_state=Estado controlador
 editor.input.city_assign=Cidade
 editor.input.building_pos=Posição
 editor.label.drag_map=Arraste para mover.
-editor.label.factory_props=Propriedades da fabrica
+editor.label.factory_props=Propriedades da Fábrica
 editor.input.throughput=Capacidade de processamento
 editor.input.shipping_threshold=Limite de envio
 editor.label.production_lines_count=Linhas de produção: %d
