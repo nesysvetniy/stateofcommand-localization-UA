@@ -9,7 +9,7 @@ menu.button.start_game=Oyuna Başla
 menu.button.profile=Profil
 menu.button.settings=Ayarlar
 menu.button.quit=Oyundan çık
-menu.intro.presented_by=Sunar  
+menu.intro.presented_by=Sunar
 menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
 # You can transliterate or get the equivalent of my name in your language, 
 #make sure to do a space between each character that is next to each other, 
@@ -198,7 +198,7 @@ editor.label.cities_count=Şehirler: %d
 editor.btn.placing_cities=Şehirler Yerleştiriliyor...
 editor.btn.place_city=Şehir Yerleştir
 editor.label.click_map_place=Yerleştirmek için haritaya tıkla
-editor.label.city_id=Şehir  #%d
+editor.label.city_id=Şehir #%d
 editor.input.city_name=Ad
 editor.input.city_state=Ülke
 editor.input.city_province=Bölge
@@ -223,7 +223,7 @@ editor.btn.delete_segment=Segmenti Sil
 
 # Editor| Building Panel
 editor.window.building=Bina Düzenleyici
-editor.label.buildings_click=Binalar: %d — yerleştirmek için haritaya tıkla
+editor.label.buildings_click=Binalar: %d  — yerleştirmek için haritaya tıkla
 editor.label.building_id=Bina #%d
 editor.input.building_type=Tür
 editor.input.owner_state=Sahip Ülke
@@ -247,7 +247,7 @@ editor.btn.delete_building=Binaları Sil
 
 # Editor| Unit Panel
 editor.window.unit=Birim Düzenleyici
-editor.label.units_click=Birimler: %d — yerleştirmek için haritaya tıkla
+editor.label.units_click=Birimler: %d  — yerleştirmek için haritaya tıkla
 editor.label.unit_id=Birim #%d
 editor.input.given_name=Ad
 editor.label.given_name_hint=Birim adı (isteğe bağlı, otomatik oluşturulabilir)

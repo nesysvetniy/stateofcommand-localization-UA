@@ -66,7 +66,7 @@ ui.building.production_lines=Linie produkcji:
 ui.building.inventory=Ekwipnek:
 ui.building.no_items=Brak materiałów
 ui.button.add_production_line=Buduj Linię Produkcji
-ui.building.military_hq_title=Siedziba Dowództwa 
+ui.building.military_hq_title=Siedziba Dowództwa
 ui.button.spawn_unit=Stwórz Jednostki
 ui.building.supply_depot=Magazyn
 ui.building.stored_equipment=Zasoby ekwipunku:
@@ -104,7 +104,7 @@ ui.diplomacy.button_ally=Zaproponuj Sojusz
 ui.diplomacy.button_war=Wypowiedz Wojnę
 ui.diplomacy.button_break_alliance=Złam Sojusz
 ui.diplomacy.button_peace=Oferuj Pokój
-ui.diplomacy.info_tooltip=Naciśnij prawy przycisk myszki aby zamknąć okno 
+ui.diplomacy.info_tooltip=Naciśnij prawy przycisk myszki aby zamknąć okno
 
 # Editor| Top Bar
 editor.btn.provinces=Prowincje
@@ -119,7 +119,7 @@ editor.btn.definitions=Definicje
 editor.btn.ref=+ Ref
 editor.tooltip.render_settings=Ustawienia Renderowania
 editor.label.modified=[MODYFIKOWANY]
-editor.label.no_map=Błąd mapy — otwórz Menadżer Zasobów aby załadować mapę 
+editor.label.no_map=Błąd mapy — otwórz Menadżer Zasobów aby załadować mapę
 
 # Editor| Resource Browser
 editor.window.resource_browser=Menadżer Zasobów
@@ -130,7 +130,7 @@ editor.btn.refresh=Odśwież
 editor.btn.load_map=Załaduj Mapę
 editor.btn.save_map=Zapisz Mapę
 editor.btn.load_unit_set=Załaduj Jednostki
-editor.btn.save_flags=Zapisz Flagę 
+editor.btn.save_flags=Zapisz Flagę
 editor.btn.load_flag_set=Załaduj Flagę
 editor.btn.duplicate=Duplikuj
 editor.btn.save_to=Zapisz do...
@@ -168,7 +168,7 @@ editor.btn.reassign=Zmień Punkt
 editor.btn.remove_vertex=Usuń Punkt
 editor.label.interior_vertex=(punkt środkowy)
 editor.label.min_verts=(min 3 punkty)
-editor.label.province_management=ZarządzanieProwincji 
+editor.label.province_management=ZarządzanieProwincji
 editor.btn.stop_adding=Stop
 editor.btn.add_vertex=Dodaj Punkt
 editor.label.click_boundary=Nacisnij na granice aby dodać
@@ -207,7 +207,7 @@ editor.input.population=Populacja
 editor.input.lon_lat=Lon / Lat
 editor.checkbox.urban_area=Teren Zabudowany
 editor.label.world_coords=Świat: (%.4f, %.4f)
-editor.btn.delete_city=Usuń Miasto 
+editor.btn.delete_city=Usuń Miasto
 editor.input.filter=Filter
 
 # Editor| Road Panel
@@ -224,7 +224,7 @@ editor.btn.delete_segment=Usuń Segment
 
 # Editor| Building Panel
 editor.window.building=Edytor Budynków
-editor.label.buildings_click=Budynki: %d  — naciśnij lewy przycisk aby zbudować 
+editor.label.buildings_click=Budynki: %d  — naciśnij lewy przycisk aby zbudować
 editor.label.building_id=Budowanie #%d
 editor.input.building_type=Typ
 editor.input.owner_state=Właściciel
@@ -284,7 +284,7 @@ editor.help.ctrl_s=Ctrl+S: Zapisz projekt
 editor.help.pick=Pick button: Kolory
 
 # Editor| Dropper Overlay
-editor.dropper.click_province=Naciśnij myszką prowincje aby wybrać kraj 
+editor.dropper.click_province=Naciśnij myszką prowincje aby wybrać kraj
 
 # Editor| Dropper Button
 editor.btn.picking=Wybieranie...
@@ -302,7 +302,7 @@ editor.label.vertices_placed=Punkty postawione: %d
 editor.input.create_prov_name=Nazwa##crprov
 editor.input.create_prov_state=Kraj##crprov
 editor.btn.undo_last=Usuń Ostatni Punkt
-editor.btn.finish_province=Zatwierdź edycje 
+editor.btn.finish_province=Zatwierdź edycje
 editor.label.or_click_first=Lub Nacisnij obok pierwszego punktu (zieloną kropkę) aby zatwierdzić kształt
 editor.label.min_3_verts=Musisz postawić minimum 3 punkty aby zatwierdzić
 
@@ -317,7 +317,7 @@ editor.input.opacity=Przezroczystość
 editor.input.position=Pozycja
 editor.input.size=Wielkość (W/H)
 editor.input.scale=Skala
-editor.btn.fit_to_map=Dopasuj do Mapy  
+editor.btn.fit_to_map=Dopasuj do Mapy
 
 # Editor| Render Settings 
 editor.window.render_settings=Ustawienia Renderowania
@@ -335,7 +335,7 @@ editor.input.city_dots_opacity=Punkt Miasta
 editor.input.urban_areas_opacity=Teren Zabudowany
 editor.input.buildings_opacity=Budynki
 editor.input.units_opacity=Dywizje
-editor.btn.reset_all=Resetuj 
+editor.btn.reset_all=Resetuj
 
 # Editor| Urban Area Panel
 editor.window.urban=Edytor Terenu Zabudowanego

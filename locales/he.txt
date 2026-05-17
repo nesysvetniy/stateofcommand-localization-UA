@@ -5,11 +5,11 @@
 # -------------------------------------
 
 # Main Menu
-menu.button.start_game= החל משחק
-menu.button.profile= פרופילים
-menu.button.settings= הגדרות
-menu.button.quit= צא מהמשחק
-menu.intro.presented_by=מוצג לכם על ידי 
+menu.button.start_game=החל משחק
+menu.button.profile=פרופילים
+menu.button.settings=הגדרות
+menu.button.quit=צא מהמשחק
+menu.intro.presented_by=מוצג לכם על ידי
 menu.intro.layth_issam_elzaim=ל י י ת  ע י ס א ם  א ל  ז ע י ם
 # You can transliterate or get the equivalent of my name in your language, 
 #make sure to do a space between each character that is next to each other, 
@@ -29,19 +29,19 @@ ui.settings.language=שפה
 # UI Manager| Flag Bar
 ui.button.diplomacy=דיפלומטיה
 ui.button.economy=כלכלה
-ui.button.unset=לא הוגדר 
+ui.button.unset=לא הוגדר
 ui.button.military=צבא
 
 # UI Manager| Country Select
-ui.button.play_as= שחק כ
+ui.button.play_as=שחק כ
 
 # UI Manager| Settings
 ui.window.settings=הגדרות
-ui.settings.secondary_icons=השתמש בסמלי יחידות משניים 
+ui.settings.secondary_icons=השתמש בסמלי יחידות משניים
 ui.settings.flag_zoom_out=Show הצג דגלים בהתרחקות (Units)
 ui.settings.nation_overlay=Nation תצוגה עילית (N)
 ui.settings.always_flag=Always הצג דגלים על יחידות(F)
-ui.settings.unit_size=גודל יחידה 
+ui.settings.unit_size=גודל יחידה
 
 # UI Manager| City tab (single city)
 ui.label.pop=אוכלוסייה: %d
@@ -158,8 +158,8 @@ editor.label.province_id=מזהה מחוז: %d
 editor.input.province_name=שם המחוז
 editor.input.owning_nation=לאום שולט
 editor.input.assign_nation=הקצה ללאום
-editor.label.vertices=קודקודים: %d (גבול: %d)
-editor.label.vertex_info=קודקוד #%d (%.6f, %.6f)
+editor.label.vertices=קודקודים: %d  (גבול: %d)
+editor.label.vertex_info=קודקוד #%d  (%.6f, %.6f)
 editor.input.vertex_pos=מיקום
 editor.label.belongs_to=שייך למחוז: %d (%s)
 editor.input.reassign_id=הקצה מחדש למזהה מחוז
@@ -223,7 +223,7 @@ editor.btn.delete_segment=מחק מקטע
 
 # Editor| Building Panel
 editor.window.building=עורך מבנים
-editor.label.buildings_click=מבנים: %d — לחץ על המפה למיקום
+editor.label.buildings_click=מבנים: %d  — לחץ על המפה למיקום
 editor.label.building_id=מבנה #%d
 editor.input.building_type=סוג
 editor.input.owner_state=מדינה בעלים
@@ -247,7 +247,7 @@ editor.btn.delete_building=מחק מבנה
 
 # Editor| Unit Panel
 editor.window.unit=עורך יחידות
-editor.label.units_click=יחידות: %d — לחץ על המפה למיקום
+editor.label.units_click=יחידות: %d  — לחץ על המפה למיקום
 editor.label.unit_id=יחידה #%d
 editor.input.given_name=שם
 editor.label.given_name_hint=שם היחידה (לא חובה, ייווצר אוטומטית)
@@ -264,9 +264,9 @@ editor.mode.roads=Roads
 editor.mode.buildings=Buildings
 editor.mode.units=Units
 editor.mode.nations=Nations
-editor.status.modified= [MODIFIED]
-editor.status.dropper_active= | DROPPER ACTIVE
-editor.status.add_vertex= | ADD VERTEX
+editor.status.modified=[MODIFIED]
+editor.status.dropper_active=| DROPPER ACTIVE
+editor.status.add_vertex=| ADD VERTEX
 editor.status.no_map=No map loaded
 
 # Editor| Help Overlay
@@ -341,7 +341,7 @@ editor.window.urban=עורך אזורים עירוניים
 editor.label.urban_count=אזורים עירוניים: %d
 editor.btn.draw_urban=צייר אזור עירוני
 editor.label.drawing_urban=מצייר... (%d קודקודים)
-editor.label.urban_id=אזור עירוני #%d (%d קודקודי גבול)
+editor.label.urban_id=אזור עירוני #%d  (%d קודקודי גבול)
 editor.input.urban_name=שם
 editor.input.urban_state=מדינה בעלים
 editor.input.urban_province=מחוז

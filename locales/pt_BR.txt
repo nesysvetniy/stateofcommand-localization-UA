@@ -278,7 +278,7 @@ editor.help.selection=Seleção
 editor.help.click=Clique: Selecionar / Colocar
 editor.help.shift_click=Shift+Clique: Nação (Modo prov)
 editor.help.drag=Arrastar: Mover selecionados
-editor.help.escape=Esc: Desselecionar 
+editor.help.escape=Esc: Desselecionar
 editor.help.ctrl_s=Ctrl+S: Salvar tudo
 editor.help.pick=Pick button: Ferramenta contadora
 
@@ -311,7 +311,7 @@ editor.btn.delete=Deletar
 editor.btn.unlock=Desbloquear
 editor.btn.lock=Trancar
 editor.btn.hide=Esconder
-editor.btn.show=<Mostrar
+editor.btn.show=Mostrar
 editor.input.opacity=Opacidade
 editor.input.position=Posição
 editor.input.size=Tamanho (L/A)
