@@ -53,7 +53,7 @@ ui.button.military_hq=Quartier Generale Militare
 ui.button.depot=Deposito
 
 # UI Manager| City Tab (multiple cities)
-ui.label.cities_selected=%zu città selezionate
+ui.label.cities_selected=%d città selezionate
 ui.label.total_buildings=Edifici totali:
 ui.label.no_buildings_selected=Nessun edificio nelle città selezionate
 ui.button.create_units=Crea unità
@@ -82,7 +82,7 @@ ui.tooltip.retreat_behavior=Comportamento ritirata: %s
 ui.retreat.normal=Normale
 ui.retreat.hold_position=Mantieni posizione
 ui.retreat.fallback=Ripiegamento
-ui.tooltip.forming=IN FORMAZIONE: %.0f%%
+ui.tooltip.forming=IN RECLUTAMENTO: %.0f%%
 
 # UI Manager| Invasion Mode
 ui.invasion.mode_active=MODALITÀ INVASIONE ATTIVA
@@ -162,7 +162,7 @@ editor.label.vertices=Vertici: %d  (confine: %d)
 editor.label.vertex_info=Vertice #%d  (%.6f, %.6f)
 editor.input.vertex_pos=Posizione
 editor.label.belongs_to=Appartiene alla provincia: %d (%s)
-editor.input.reassign_id=Riassegna a ID provincia
+editor.input.reassign_id=Riassegna all'ID provincia
 editor.btn.reassign=Riassegna vertice
 editor.btn.remove_vertex=Rimuovi vertice
 editor.label.interior_vertex=(vertice interno)
@@ -272,7 +272,7 @@ editor.status.no_map=Nessuna mappa caricata
 # Editor| Help Overlay
 editor.window.controls=Controlli
 editor.help.navigation=Navigazione
-editor.help.wasd=WASD / Trascinamento destro: Sposta
+editor.help.wasd=WASD / Trascinamento tasto destro: Sposta
 editor.help.scroll=Rotella: Zoom
 editor.help.selection=Selezione
 editor.help.click=Clic: Seleziona / Posiziona
