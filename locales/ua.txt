@@ -1,0 +1,369 @@
+# -------------------------------------
+# State of Command: Ukrainian locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+# Main Menu
+menu.button.start_game=Почати гру
+menu.button.profile=Профіль
+menu.button.settings=Налаштування
+menu.button.quit=Вийти
+menu.intro.presented_by=Гра була розроблена
+menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
+# You can transliterate or get the equivalent of my name in your language, 
+#make sure to do a space between each character that is next to each other, 
+#and double space where there would normally be 1 space.
+
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=Налаштування
+ui.settings.tab.graphics=Графіка
+ui.settings.tab.language=Мова
+ui.settings.tab.game_visuals=Вигляд
+
+ui.settings.resolution=Роздільна здатність
+ui.settings.window_mode=Екранний режим
+
+ui.settings.language=Мова
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Дипломатія
+ui.button.economy=Економіка
+ui.button.unset=Відмінити
+ui.button.military=Військо
+
+# UI Manager| Country Select
+ui.button.play_as=Грати за
+
+# UI Manager| Settings
+ui.window.settings=Налаштування
+ui.settings.secondary_icons=Використовувати другорядні іконки підрозділів
+ui.settings.flag_zoom_out=Показувати прапори підрозділів під час зменшення масштабу
+ui.settings.nation_overlay=Оверлей націй
+ui.settings.always_flag=Завжди показувати прапори підрозділів
+ui.settings.unit_size=Розмір підрозділів
+
+# UI Manager| City tab (single city)
+ui.label.pop=Населення: %d
+ui.label.buildings=Споруди:
+ui.label.no_buildings=Нема споруд
+ui.label.construct=Будівництво:
+ui.button.factory=Завод
+ui.button.military_hq=Військовий штаб
+ui.button.depot=Депо
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu обраних міст
+ui.label.total_buildings=Всього споруд:
+ui.label.no_buildings_selected=Нема споруд в обраних містах
+ui.button.create_units=Створити підрозділи
+ui.button.construct_buildings=Будівництво споруд
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Цивільний завод
+ui.building.production_lines=Виробничі лінії:
+ui.building.inventory=Інвентар:
+ui.building.no_items=Нема предметів
+ui.button.add_production_line=Додати лінію виробництва
+ui.building.military_hq_title=Військовий штаб
+ui.button.spawn_unit=Рекрутинг підрозділів
+ui.building.supply_depot=Центр постачання
+ui.building.stored_equipment=Збережене спорядження:
+ui.label.empty=Пусто
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Обрати тип підрозділу:
+ui.button.cancel=Відмінити
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Нема спорядження
+ui.tooltip.morale=Моральний дух: %.1f
+ui.tooltip.retreat_behavior=Тактика при відступі: %s
+ui.retreat.normal=Звичайна
+ui.retreat.hold_position=Тримати позицію
+ui.retreat.fallback=Відступати на підготовлені позиції
+ui.tooltip.forming=Утворювати: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=РЕЖИМ ВТОРГНЕННЯ АКТИВНИЙ
+ui.invasion.draw_line=Намалювати лінію наступу до плану
+ui.invasion.toggle_off=Натисність 'I', щоб вимкнути
+ui.button.execute=ВИКОНАТИ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Побудувати споруду
+ui.label.construct_building=Побудувати споруду:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Ваша країна:
+ui.diplomacy.status_ally=СОЮЗНИК
+ui.diplomacy.status_war=У СТАНІ ВІЙНИ
+ui.diplomacy.status_neutral=Нейтральний
+ui.diplomacy.button_ally=Утворити альянс
+ui.diplomacy.button_war=Оголосити війну
+ui.diplomacy.button_break_alliance=Розпустити альянс
+ui.diplomacy.button_peace=Заключити мир
+ui.diplomacy.info_tooltip=Натисність ПКМ по мапі, щоб закрити
+
+# Editor| Top Bar
+editor.btn.provinces=Провінції
+editor.btn.cities=Міста
+editor.btn.urban=Міський
+editor.btn.roads=Дороги
+editor.btn.buildings=Споруди
+editor.btn.units=Підрозділи
+editor.btn.nations=Країни
+editor.btn.draw_province=Намалювати провінцію
+editor.btn.definitions=Визначення
+editor.btn.ref=+ Ref
+editor.tooltip.render_settings=Налаштування рендерингу
+editor.label.modified=[МОДИФІКОВАНО]
+editor.label.no_map=Немає завантаження мапи— відкрийте оглядач ресурсів, щоб завантажити збереження мапи
+
+# Editor| Resource Browser
+editor.window.resource_browser=Оглядач ресурсів
+editor.tab.maps=Мапи
+editor.tab.units=Підрозділи
+editor.tab.flags=Прапори
+editor.btn.refresh=Оновити
+editor.btn.load_map=Завантажити мапу
+editor.btn.save_map=Зберегти мапу
+editor.btn.load_unit_set=Завантажити збереження підрозділу
+editor.btn.save_flags=Зберегти прапори
+editor.btn.load_flag_set=Завантажити збереження прапорів
+editor.btn.duplicate=Дублювати
+editor.btn.save_to=Зберегти до...
+editor.hint.new_set_name=Нова назва збереження...
+editor.btn.create=Створити
+editor.btn.save_all=Зберегти вже (Ctrl+S)
+editor.label.unsaved=Є незбереженні зміни!
+editor.hint.or_new_name=Або напишіть нове ім'я...
+editor.btn.save=Зберегти
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Дублювати збереження
+editor.popup.duplicate_format=Дублювати %s збереження
+editor.popup.new_name_label=Нове ім'я
+editor.btn.duplicate_confirm=Дублювати
+editor.btn.cancel=Відмінити
+editor.popup.save_to_title=Зберегти до збереження
+editor.popup.save_to_format=Зебрегти поточну інформацію до %s збереження:
+editor.set_type.map=Мапа
+editor.set_type.unit=Підрозділ
+editor.set_type.flag=Прапор
+
+# Editor| Province Panel
+editor.window.province=Властивості провінцій
+editor.label.province_id=ID Провінції: %d
+editor.input.province_name=Назва провінції
+editor.input.owning_nation=Країна-власник
+editor.input.assign_nation=Призначити країні
+editor.label.vertices=Вершини: %d  (межа: %d)
+editor.label.vertex_info=Вершина #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Позиція
+editor.label.belongs_to=Належить провінції: %d (%s)
+editor.input.reassign_id=Перепризначити до ID провінції
+editor.btn.reassign=Перепризначити вершину
+editor.btn.remove_vertex=Видалити вершину
+editor.label.interior_vertex=(внутрішня вершина)
+editor.label.min_verts=(мінімально 3 вершини)
+editor.label.province_management=Керування провінцією
+editor.btn.stop_adding=Зупинити додавання
+editor.btn.add_vertex=Додати вершину
+editor.label.click_boundary=Межа кліків
+editor.btn.draw_new_province=Намалювати нову провінцію
+editor.label.drawing_verts=Малювання... (%d вершин)
+editor.btn.delete_province=Видалити цю провінцію
+
+# Editor| Nation Panel
+editor.window.nation=Властивості країн
+editor.label.nation_hash=Хеш: %u  Провінції: %d
+editor.input.nation_name=Назва нації
+editor.label.no_flag=(немає прапору)
+editor.label.flag_set=Призначити прапор: %s
+editor.btn.change_flag=Змінити прапор...
+editor.label.allies=Союзники
+editor.btn.add_ally=Додати союзника
+editor.label.enemies=Вороги
+editor.btn.add_enemy=Додати ворога
+editor.label.province_list_header=Список провінцій
+editor.label.state_management=Керування регіоном
+editor.input.new_state_name=Нова назва регіону##новий регіон
+editor.btn.create_state=Створити регіон
+editor.btn.delete_state=Видалити цей регіон
+
+# Editor| City Panel
+editor.window.city=Редактор міст
+editor.label.cities_count=Міста: %d
+editor.btn.placing_cities=Розміщення міст...
+editor.btn.place_city=Розмістити місто
+editor.label.click_map_place=Натисніть на мапу, щоб поставити
+editor.label.city_id=Місто #%d
+editor.input.city_name=Назва
+editor.input.city_state=Регіон
+editor.input.city_province=Провінція
+editor.input.population=Населення
+editor.input.lon_lat=Lon / Lat
+editor.checkbox.urban_area=Міська зона
+editor.label.world_coords=Світ: (%.4f, %.4f)
+editor.btn.delete_city=Видалити місто
+editor.input.filter=Фільтр
+
+# Editor| Road Panel
+editor.window.road=Редактор доріг
+editor.label.segments=Сегменти: %d
+editor.btn.new_segment=Новий сегмент
+editor.label.add_mode=ДОДАТИ РЕЖИМ
+editor.btn.stop=Зупинити
+editor.btn.add_points=Додати бали
+editor.label.segment_info=Сегмент #%d (%d балів)
+editor.input.point_pos=Розташування балу
+editor.btn.delete_point=Видалити бал
+editor.btn.delete_segment=Видалити сегмент
+
+# Editor| Building Panel
+editor.window.building=Редактор будівництва
+editor.label.buildings_click=Споруди: %d  — натисніть на мапу, щоб поставити
+editor.label.building_id=Споруда #%d
+editor.input.building_type=Тип споруди
+editor.input.owner_state=Власник регіону
+editor.input.city_assign=Місто
+editor.input.building_pos=Розташування
+editor.label.drag_map=Потягніть мапу, щоб рухати
+editor.label.factory_props=Властивості заводів
+editor.input.throughput=Пропускна здатність
+editor.input.shipping_threshold=Поріг доставки
+editor.label.production_lines_count=Виробничі лінії: %d
+editor.input.equipment=Спорядження
+editor.input.capacity=Місткість
+editor.btn.remove=Прибрати
+editor.btn.add_production_line=Додати виробничу лінію
+editor.label.depot_props=Властивості сховища
+editor.input.max_equipment=Максимальна місткість спорядження
+editor.input.max_manpower=Максимальна місткість людських ресурсів
+editor.label.military_hq=Військовий штаб
+editor.label.no_additional_props=Немає додаткових властивостей
+editor.btn.delete_building=Видалити споруду
+
+# Editor| Unit Panel
+editor.window.unit=Редактор підрозділів
+editor.label.units_click=Підрозділи: %d  — натисніть на мапу, для призову
+editor.label.unit_id=Підрозділ #%d
+editor.input.given_name=Назва
+editor.label.given_name_hint=Назва пдірозділу(не обов'язкова, буде автоматично згенерована)
+editor.input.definition=Визначення
+editor.checkbox.fully_formed=Повністю сформовано(призов в повній боєздатності)
+editor.btn.generate_name=Автоматична генерація назви
+editor.btn.delete_unit=Розформувати підрозділ
+
+# Editor| Status Bar
+editor.mode.provinces=Провінції
+editor.mode.cities=Міста
+editor.mode.urban_areas=Міські зони
+editor.mode.roads=Дороги
+editor.mode.buildings=Споруди
+editor.mode.units=Підрозділи
+editor.mode.nations=Країни
+editor.status.modified=[МОДИФІКОВАНО]
+editor.status.dropper_active=| ВИКИДУВАЧ АКТИВНИЙ
+editor.status.add_vertex=| ДОДАТИ ВЕРШИНУ
+editor.status.no_map=Немає завантаженої мапи
+
+# Editor| Help Overlay
+editor.window.controls=Керування
+editor.help.navigation=Навігація
+editor.help.wasd=WASD / Перетягування правою кнопкою миші: Панорамування
+editor.help.scroll=Scroll: Приблизити
+editor.help.selection=Вибір
+editor.help.click=Click: Обрати / Розмістити
+editor.help.shift_click=Shift+Клік: Країна (Режим провінцій)
+editor.help.drag=Drag: Обраний рух
+editor.help.escape=Escape: Відмінити обрання
+editor.help.ctrl_s=Ctrl+S: Зберегти все
+editor.help.pick=Обрати кнопку: інструмент викидання
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Натисність на провінцію, щоб обрати регіон
+
+# Editor| Dropper Button
+editor.btn.picking=Обирання...
+editor.btn.pick=Обрати
+editor.tooltip.dropper=Натисніть на провінцію на мапі, обрати регіон власника
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Шукати країни...
+editor.hint.search_provinces=Шукати провінції...
+
+# ---- Editor ----
+editor.window.draw_province=Намалювати провінцію
+editor.label.click_map_vertices=Натисність на мапу, щоб розмістити вершини
+editor.label.vertices_placed=Вершин розміщено: %d
+editor.input.create_prov_name=Назва##crprov
+editor.input.create_prov_state=Регіон##crprov
+editor.btn.undo_last=Відмінити останню вершину
+editor.btn.finish_province=Завершити провінцію
+editor.label.or_click_first=Або клацніть біля першої вершини (зелена точка), щоб замкнути фігуру.
+editor.label.min_3_verts=Розмістіть щонайменше 3 вершини для завершення.
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Властивості довідкового зображення
+editor.btn.delete=Видалити
+editor.btn.unlock=Розблокувати
+editor.btn.lock=Зачинити
+editor.btn.hide=Сховати
+editor.btn.show=Показати
+editor.input.opacity=Непрозорість
+editor.input.position=Розташування 
+editor.input.size=Розмір (Ширина/Висота)
+editor.input.scale=Масштаб
+editor.btn.fit_to_map=Вмістити до мапи
+
+# Editor| Render Settings 
+editor.window.render_settings=Рендерити налаштування
+editor.label.tile_textures=Текстури частин
+editor.checkbox.show_tile_textures=Показати текстури частин
+editor.input.tint_strength=Сила відтінку
+editor.label.nation_rendering=Рендеринг країни
+editor.checkbox.render_by_nation=Рендерити за допомогою кольору країни
+editor.checkbox.show_nation_flags=Показати прапори країн
+editor.tooltip.nation_flags=Рендерити прапори країн над центром їхньої території
+editor.label.layer_opacities=Непрозорість шарів
+editor.input.provinces_opacity=Провінції
+editor.input.roads_opacity=Дороги
+editor.input.city_dots_opacity=Міста
+editor.input.urban_areas_opacity=Міські зони
+editor.input.buildings_opacity=Споруди
+editor.input.units_opacity=Підрозділи
+editor.btn.reset_all=Відмінити все
+# Editor| Urban Area Panel
+editor.window.urban=Редактор міських зон
+editor.label.urban_count=Міські зони: %d
+editor.btn.draw_urban=Намалювати міську зону
+editor.label.drawing_urban=Малювання... (%d вершин)
+editor.label.urban_id=Міська зона #%d  (%d boundary verts)
+editor.input.urban_name=Назва
+editor.input.urban_state=Власник регіону
+editor.input.urban_province=Провінція
+editor.input.urban_pop=Населення
+editor.input.filter_urban=Фільтр##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Намлаювати міську зону
+editor.input.create_urban_name=Назва##crurban
+editor.input.create_urban_state=Регіон##crurban
+editor.btn.finish_urban=Завершити міську зону
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Редактор країн
+editor.label.nations_count=Країни: %d
+editor.input.filter_nations=Фільтр##nations
+editor.label.selected_nation=Обрано: %s
+editor.input.nation_name_ne=Назва країни##ne
+editor.label.provinces_ne=Провінції##ne
+
+# Editor| Definition Editor 
+editor.window.definition_editor=Редактор визначень
+editor.btn.equipment_tab=Спорядження
+editor.btn.units_tab=Підрозділи
+editor.btn.save_all_def=Зберегти все
+editor.btn.close=Закрити
+editor.label.background_icons=Іконки заднього фону
