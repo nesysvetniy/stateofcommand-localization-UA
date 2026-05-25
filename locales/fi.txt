@@ -1,5 +1,5 @@
 # -------------------------------------
-# State of Command: English locale
+# State of Command: Finnish locale
 # Format: key=value
 # Lines starting with # are comments
 # -------------------------------------
