@@ -1,0 +1,386 @@
+# -------------------------------------
+# State of Command: Romanian locale
+# Format: key=value
+# Lines starting with # are comments
+# -------------------------------------
+
+#Romanian translation done by: Mihnea
+
+# Main Menu
+menu.button.start_game=începe joc
+menu.button.profile=Profil
+menu.button.settings=Setări
+menu.button.quit=Ieși
+menu.intro.presented_by=Prezentată din partea lui
+menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
+# You can transliterate or get the equivalent of my name in your language, 
+#make sure to do a space between each character that is next to each other, 
+#and double space where there would normally be 1 space.
+
+# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+ui.settings.title=Setări
+ui.settings.tab.graphics=Grafică
+ui.settings.tab.language=Limbă
+ui.settings.tab.game_visuals=Elemente vizuale
+
+ui.settings.resolution=Rezoluție
+ui.settings.window_mode=Modul Windows
+
+ui.settings.language=Limbă
+
+# UI Manager| Flag Bar
+ui.button.diplomacy=Diplomație
+ui.button.economy=Economie
+ui.button.unset=Dezactivat
+ui.button.military=Armată
+
+# UI Manager| Country Select
+ui.button.play_as=Joacă ca
+
+# UI Manager| Settings
+ui.window.settings=Setări
+ui.settings.secondary_icons=Folosește pictograma unităților secundare
+ui.settings.flag_zoom_out=Arată steagul la zoom îndepărtat (Unități)
+#more context may be required, translation may sound odd
+ui.settings.nation_overlay=Suprapunere Națională (N)
+ui.settings.always_flag=Always Mereu afișeaza steagul unităților (F)
+ui.settings.unit_size=Mărimea unității
+
+# UI Manager| City tab (single city)
+ui.label.pop=Pop: %d
+ui.label.buildings=Clădiri:
+ui.label.no_buildings=Făra clădiri
+ui.label.construct=Construiește:
+ui.button.factory=Fabrică
+ui.button.military_hq=Comandament militar
+ui.button.depot=Depozit
+
+# UI Manager| City Tab (multiple cities)
+ui.label.cities_selected=%zu orașe selectate
+ui.label.total_buildings=Clădiri totale:
+ui.label.no_buildings_selected=Nu există clădiri în orașul selectat
+ui.button.create_units=Creează unități
+ui.button.construct_buildings=Construiește orașe
+
+# UI Manager| Building Tab
+ui.building.industrial_factory=Fabrică industrială
+ui.building.production_lines=Linii de producție:
+ui.building.inventory=Inventar:
+ui.building.no_items=Făra iteme
+ui.button.add_production_line=Adaugă linie de producție
+ui.building.military_hq_title=Comandament militar
+ui.button.spawn_unit=Generează unități
+ui.building.supply_depot=Depozit de aprovizionare
+ui.building.stored_equipment=Echipament depozitat:
+ui.label.empty=Gol
+
+# UI Manager| Unit Creation Tab
+ui.label.select_unit_type=Selecteaza tipul unității:
+ui.button.cancel=Anulează
+
+# UI Manager| Unit Tooltip
+ui.tooltip.no_equipment=Făra echipament
+ui.tooltip.morale=Morale: %.1f
+ui.tooltip.retreat_behavior=Comportament de retragare: %s
+ui.retreat.normal=Normal
+ui.retreat.hold_position=Menține poziția
+ui.retreat.fallback=Retragerea
+ui.tooltip.forming=FORMING: %.0f%%
+
+# UI Manager| Invasion Mode
+ui.invasion.mode_active=MODUL INVADARE ACTIV
+ui.invasion.draw_line=Desenează linie ofensivă pentru a planifica
+ui.invasion.toggle_off=Apasă 'I' pentru a opri
+ui.button.execute=EXECUTĂ
+
+# UI Manager| Building Creation Tab
+ui.window.construct_building=Construiește clădire
+ui.label.construct_building=Construiește clădire:
+
+# UI Manager| Diplomacy tab
+ui.diplomacy.your_nation=Națiunea ta:
+ui.diplomacy.status_ally=ALIAT
+ui.diplomacy.status_war=ÎN RĂZBOI
+ui.diplomacy.status_neutral=Neutru
+ui.diplomacy.button_ally=Declară alianță
+ui.diplomacy.button_war=Declară război
+ui.diplomacy.button_break_alliance=Întrerupe alianța
+ui.diplomacy.button_peace=Declară pace
+ui.diplomacy.info_tooltip=Apasă click-dreapta pe hartă ca să închizi
+
+# Editor| Top Bar
+editor.btn.provinces=Provincii
+editor.btn.cities=Orașe
+editor.btn.urban=Urban
+editor.btn.roads=Străzi
+editor.btn.buildings=Clădiri
+editor.btn.units=Unități
+editor.btn.nations=Națiuni
+editor.btn.draw_province=Desenează provincie
+editor.btn.definitions=Definiții
+editor.btn.ref=+ Referință
+editor.tooltip.render_settings=Setări de randare
+editor.label.modified=[MODIFICAT]
+editor.label.no_map=Nicio hartă încărcată — deschide Browser-ul de Resurse pentru a încărca harta
+
+# Editor| Resource Browser
+editor.window.resource_browser=Browser de Resurse
+editor.tab.maps=Hărți
+editor.tab.units=Unități
+editor.tab.flags=Steaguri
+editor.btn.refresh=Reîncarcă
+editor.btn.load_map=Încarcă harta
+editor.btn.save_map=Salvează harta
+editor.btn.load_unit_set=Încarcă Setul de Unități
+editor.btn.save_flags=Salvează steagurile
+editor.btn.load_flag_set=Încarcă Setul de Steaguri
+editor.btn.duplicate=Duplică
+editor.btn.save_to=Salveaza la...
+editor.hint.new_set_name=Introduceți unme nou...
+editor.btn.create=Creează
+editor.btn.save_all=Salvează TOT (Ctrl+S)
+editor.label.unsaved=Schimbări nesalvate!
+editor.hint.or_new_name=Sau scrie nume nou...
+editor.btn.save=Salvează
+
+# Editor| Duplicate / Save To Popups
+editor.popup.duplicate_title=Duplică Set
+editor.popup.duplicate_format=Duplică %s Set
+editor.popup.new_name_label=Nume nou
+editor.btn.duplicate_confirm=Duplică
+editor.btn.cancel=Anulează
+editor.popup.save_to_title=Salvează pentru a seta
+editor.popup.save_to_format=Salvează datele curente la un %s set: 
+editor.set_type.map=Hartă
+editor.set_type.unit=Unități
+editor.set_type.flag=Steag
+
+# Editor| Province Panel
+editor.window.province=Proprietăți provicnie
+editor.label.province_id=ID Provincie: %d
+editor.input.province_name=Nume Provincie
+editor.input.owning_nation=Națiune Deținută
+editor.input.assign_nation=Atribuie Națiunii
+#Genunely never heard of the word "Vertices" so I'll translate based on what I found online
+editor.label.vertices=Vârfuri: %d  (limită: %d)
+editor.label.vertex_info=Vârf #%d  (%.6f, %.6f)
+editor.input.vertex_pos=Poziție
+editor.label.belongs_to=Aparține provincii: %d (%s)
+editor.input.reassign_id=Reassign to Province ID
+editor.btn.reassign=Reatribuie Vârf
+editor.btn.remove_vertex=Elimină Vârf
+editor.label.interior_vertex=(vârf interior)
+editor.label.min_verts=(min 3 vârfuri)
+editor.label.province_management=Gestionarea Provinciei
+editor.btn.stop_adding=Opreste adăugarea
+editor.btn.add_vertex=Adaugă Vârf
+editor.label.click_boundary=Apasă pe limită pentru a insera
+editor.btn.draw_new_province=Desenează Provincie Nouă
+editor.label.drawing_verts=Desenare... (%d vârfuri)
+editor.btn.delete_province=Șterge Această Provincie
+
+# Editor| Nation Panel
+#It has to be a bit more clear to the user, translation can mean both the nation's properties" or the "Nation's buildings"
+editor.window.nation=Proprietățiile Națiunii
+editor.label.nation_hash=Hash: %u  Provincii: %d
+editor.input.nation_name=Nume Națiune
+editor.label.no_flag=(fără steag)
+#Does it mean to place a flag or a set of flags? Meaning can change
+editor.label.flag_set=Set steag: %s
+editor.btn.change_flag=Schimbă Steag...
+editor.label.allies=Aliați
+editor.btn.add_ally=Adaugă Aliat
+editor.label.enemies=Inamici
+editor.btn.add_enemy=Adaugă Inamic
+editor.label.province_list_header=Listă Provincii
+editor.label.state_management=Gestionare Stat
+editor.input.new_state_name=Nume Stat Nou##newstate
+editor.btn.create_state=Creează Stat
+editor.btn.delete_state=Șterge acest stat
+
+# Editor| City Panel
+editor.window.city=Oraș Editor
+editor.label.cities_count=Orașe: %d
+#Depending on the meaning it can sound a bit weird translated
+editor.btn.placing_cities=Plasarea orașelor...
+editor.btn.place_city=Plasează Oraș
+editor.label.click_map_place=Click pe hartă pentru a plasa
+editor.label.city_id=Oraș #%d
+editor.input.city_name=Nume
+editor.input.city_state=Stat
+editor.input.city_province=Provinie
+editor.input.population=Populație
+editor.input.lon_lat=Longitudine / Latitudine
+editor.checkbox.urban_area=Zona Urbană
+editor.label.world_coords=Lume: (%.4f, %.4f)
+editor.btn.delete_city=Șterge Oraș
+editor.input.filter=Filtru
+
+# Editor| Road Panel
+editor.window.road=Editor Stradă
+editor.label.segments=Segmente: %d
+editor.btn.new_segment=Segment Nou
+editor.label.add_mode=ADAUGĂ MOD
+editor.btn.stop=Stop
+editor.btn.add_points=Adaugă Puncte
+editor.label.segment_info=Segment #%d (%d pts)
+editor.input.point_pos=Poziție Punct
+editor.btn.delete_point=Șterge Punct
+editor.btn.delete_segment=Șterge Segment
+
+# Editor| Building Panel
+editor.window.building=Editor Construcții
+editor.label.buildings_click=Clădiri: %d  — click pe hartă pentru a plasa
+editor.label.building_id=Clădire #%d
+editor.input.building_type=Tip
+editor.input.owner_state=Proprietar Stat
+editor.input.city_assign=Oraș
+editor.input.building_pos=Poziție
+editor.label.drag_map=Glisează pe hartă pentru a mișca
+editor.label.factory_props=Proprietăți Fabrică
+#NO direct translation, it is more of a phrase
+editor.input.throughput=Capacitate de Procesare
+editor.input.shipping_threshold=Prav de Livrare
+editor.label.production_lines_count=Linii de Producție: %d
+editor.input.equipment=Echipament
+editor.input.capacity=Capacitate
+editor.btn.remove=Elimină
+editor.btn.add_production_line=Adaugă Linie de Producție
+#translation if you mean directly at a depot as in Warehouse
+editor.label.depot_props=Proprietăți Depozit
+editor.input.max_equipment=Capacitate Echipament Maxim
+#depends whether you mean manpower in military or manpower (workforce) in people that are able to work, although I asusume you meant military
+editor.input.max_manpower=Capacitate Forță de Luptă Maxima
+editor.label.military_hq=Comandament Militar
+editor.label.no_additional_props=Făra Proprietăți Suplimentare
+editor.btn.delete_building=Șterge Clădire
+
+# Editor| Unit Panel
+editor.window.unit=Editor Unitate
+editor.label.units_click=Unități: %d  — click pe hartă pentru a plasa
+editor.label.unit_id=Unitate #%d
+editor.input.given_name=Nume
+editor.label.given_name_hint=Nume Unitate (nu este necesar,va fi generat automat )
+editor.input.definition=Definiție
+editor.checkbox.fully_formed=Format Complet (apare la putere maximă)
+editor.btn.generate_name=Nume Automat
+editor.btn.delete_unit=Șterge Unitate
+
+# Editor| Status Bar
+editor.mode.provinces=Provincie
+editor.mode.cities=Orașe
+editor.mode.urban_areas=Zone Urbane
+editor.mode.roads=Străzi
+editor.mode.buildings=Clădiri
+editor.mode.units=Unități
+editor.mode.nations=Națiuni
+editor.status.modified=[MODIFICAT]
+#cannot seem to fire out what you mean by DROPPER, therefore I will let it like this
+editor.status.dropper_active=| DROPPER ACTIV
+editor.status.add_vertex=| ADAUGĂ VÂRF
+editor.status.no_map=Nicio hartă încărcată
+
+# Editor| Help Overlay
+editor.window.controls=Controale
+editor.help.navigation=Navigație
+editor.help.wasd=WASD / Right-drag: Panoramică
+editor.help.scroll=Scroll: Zoom
+editor.help.selection=Selecție
+editor.help.click=Click: Selectează / Plasează
+editor.help.shift_click=Shift+Click: Națiune (mod Provincie)
+editor.help.drag=Glisează: Mută selecția
+editor.help.escape=Escape: Deselectează
+editor.help.ctrl_s=Ctrl+S: Salvează tot
+#once again, no clue what it means, more context required for translation to be accurate
+editor.help.pick=Alege buton: unealta DROPPER
+
+# Editor| Dropper Overlay
+editor.dropper.click_province=Click pe provincie pentru a alege stat
+
+# Editor| Dropper Button
+editor.btn.picking=Alegere...
+editor.btn.pick=Alege
+editor.tooltip.dropper=Click pe o provincie pe hartă pentru a alege proprietarul statului
+
+# Editor| Nation/Province Combo Filters
+editor.hint.search_nations=Caută națiuni...
+editor.hint.search_provinces=Caută provincii...
+
+# ---- Editor — Province Creation Panel ----
+editor.window.draw_province=Desenează Provincie
+editor.label.click_map_vertices=Click pe hartă pentru a plasa vârfuri
+editor.label.vertices_placed=Vârfuri plasate: %d
+editor.input.create_prov_name=Nume##crprov
+editor.input.create_prov_state=Stat##crprov
+editor.btn.undo_last=Anulează Ultimul Vârf
+editor.btn.finish_province=Finalizează Provincie
+editor.label.or_click_first=Sau dați click lângă cel mai apropiat vârf (punctul verde) pentru a închide forma.
+editor.label.min_3_verts=Plasează cel puțin 3 vârfuri pentru a finaliza.
+
+# Editor| Reference Overlay Panel
+editor.window.ref_image=Propiretățiile imaginii de Referință
+editor.btn.delete=Șterge
+editor.btn.unlock=Deblocheaza
+editor.btn.lock=Blocheaza
+editor.btn.hide=Ascunde
+editor.btn.show=Arată
+editor.input.opacity=Opacitate
+editor.input.position=Poziție
+editor.input.size=Mărime (Lățime/Înălțime)
+editor.input.scale=Scalare
+editor.btn.fit_to_map=Potrivire la Hartă
+
+# Editor| Render Settings 
+editor.window.render_settings=Setări de Randare
+#translated if you mean exactly as those that you step on 
+editor.label.tile_textures=Texturi Țiglă
+editor.checkbox.show_tile_textures=Arată Texturi Țiglă
+editor.input.tint_strength=Intensitate Nuanței
+editor.label.nation_rendering=Randarea Națiunii
+editor.checkbox.render_by_nation=Randează bazat pe Culoarea Națiunii
+editor.checkbox.show_nation_flags=Arată Steagurile Națiunii
+editor.tooltip.nation_flags=Randează steagurile națiunii deasupra teritoriul lor central
+editor.label.layer_opacities=Opacitățile straturilor
+editor.input.provinces_opacity=Provincii
+editor.input.roads_opacity=Străzi
+#again, don't really know what you mean by that
+editor.input.city_dots_opacity=Punctele Orașului
+editor.input.urban_areas_opacity=Zone Urbane
+editor.input.buildings_opacity=Clădiri
+editor.input.units_opacity=Unități
+editor.btn.reset_all=Resetează TOT
+
+# Editor| Urban Area Panel
+editor.window.urban=Editor Zonă Urban
+editor.label.urban_count=Zone Urbane: %d
+editor.btn.draw_urban=Desenează Zonă Urbana
+editor.label.drawing_urban=Desenare... (%d vârfuri)
+editor.label.urban_id=Zonă Urbană #%d  (%d limita vârfurilor)
+editor.input.urban_name=Nume
+editor.input.urban_state=Proprietar Stat
+editor.input.urban_province=Provincie
+editor.input.urban_pop=Populație
+editor.input.filter_urban=Filtru##urban
+
+# Editor| Urban Area Creation Panel
+editor.window.draw_urban=Desenează Zonă Urbană
+editor.input.create_urban_name=Nume##crurban
+editor.input.create_urban_state=Stat##crurban
+editor.btn.finish_urban=Finalizează Zonă Urbană
+
+# Editor| Nation Editor Tab
+editor.window.nation_editor=Editor Națiune
+editor.label.nations_count=Națiuni: %d
+editor.input.filter_nations=Filtru##nations
+editor.label.selected_nation=Selectat: %s
+editor.input.nation_name_ne=Nume Națiune##ne
+editor.label.provinces_ne=Provincii##ne
+
+# Editor| Definition Editor 
+#translated if you mean definition as it's literal meaning and by that I mean definitions
+editor.window.definition_editor=Editor de Definiții
+editor.btn.equipment_tab=Echipament
+editor.btn.units_tab=Unități
+editor.btn.save_all_def=Salvează TOT
+editor.btn.close=Închide
+editor.label.background_icons=Iconițe din Fundal
