@@ -9,13 +9,23 @@ menu.button.start_game=Start Game
 menu.button.profile=Profile
 menu.button.settings=Settings
 menu.button.quit=Quit
+menu.button.credits=Credits
 menu.intro.presented_by=Presented to you by
 menu.intro.layth_issam_elzaim=L a y t h  I s s a m  E l  Z a i m
-# You can transliterate or get the equivalent of my name in your language, 
-#make sure to do a space between each character that is next to each other, 
-#and double space where there would normally be 1 space.
 
-# Settings| NEW STUFF AND THAT'S IT [No other updates past my name and the settings for now]
+# Credits Screen
+menu.credits.line1=A Game by Layth Issam El Zaim
+menu.credits.line2=(Sole Developer & Creator)
+# to make space between credits do the key then leave value blank like so
+menu.credits.line3=
+#Then I would like for all contributors to put their credit appropriately, for example for translation (which is pretty much everyone except 1):
+menu.credits.line4=English locale by Layth
+menu.credits.line5=
+#now add all of yours here and all translators try to keep your locales up to date with the credits as well, you can even put the names in the respective language.
+
+menu.credits.click_to_return=Click anywhere to return
+
+# Settings
 ui.settings.title=Settings
 ui.settings.tab.graphics=Graphics
 ui.settings.tab.language=Language
@@ -28,8 +38,8 @@ ui.settings.language=Language
 
 # UI Manager| Flag Bar
 ui.button.diplomacy=Diplomacy
+ui.button.politics=Politics
 ui.button.economy=Economy
-ui.button.unset=Unset
 ui.button.military=Military
 
 # UI Manager| Country Select
@@ -38,6 +48,8 @@ ui.button.play_as=Play as
 # UI Manager| Settings
 ui.window.settings=Settings
 ui.settings.secondary_icons=Use Secondary Unit Icons
+ui.settings.secondary_aircraft_icons=Use Secondary Aircraft Icons
+ui.settings.nato_aircraft_coloring=NATO-Colored Aircraft (No Background)
 ui.settings.flag_zoom_out=Show Flag on Zoom Out (Units)
 ui.settings.nation_overlay=Nation Overlay (N)
 ui.settings.always_flag=Always Show Flag on Units (F)
@@ -51,6 +63,8 @@ ui.label.construct=Construct:
 ui.button.factory=Factory
 ui.button.military_hq=Military HQ
 ui.button.depot=Depot
+ui.button.oil_extractor=Oil Extractor
+ui.button.refinery=Refinery
 
 # UI Manager| City Tab (multiple cities)
 ui.label.cities_selected=%zu cities selected
@@ -78,11 +92,27 @@ ui.button.cancel=Cancel
 # UI Manager| Unit Tooltip
 ui.tooltip.no_equipment=No equipment
 ui.tooltip.morale=Morale: %.1f
+ui.tooltip.organization=Organization: %.2f
 ui.tooltip.retreat_behavior=Retreat Behavior: %s
 ui.retreat.normal=Normal
 ui.retreat.hold_position=Hold Position
 ui.retreat.fallback=Fallback
 ui.tooltip.forming=FORMING: %.0f%%
+ui.tooltip.assigned_to_hq=Assigned to: %s
+ui.tooltip.right_click_for_hq=Right-click to assign to HQ
+ui.tooltip.subordinates=Subordinates: %d
+ui.tooltip.hq_org_bonus=HQ Org Bonus: +%.0f%%
+
+# UI Manager| HQ Assignment
+ui.hq.assigning=Assigning
+ui.hq.assign_mode=Click an HQ unit to assign
+ui.hq.assign_cancel=Right-click or Esc to cancel
+ui.hq.assigning_factory=Assigning Factory
+
+# UI Manager| Factory Tab
+ui.factory.no_hq_assigned=No HQ assigned -- right-click to assign
+ui.factory.priority_tooltip=HQ auto-adjustment will skip this production line
+ui.factory.priority_badge=[PRIORITY]
 
 # UI Manager| Invasion Mode
 ui.invasion.mode_active=INVASION MODE ACTIVE
@@ -104,6 +134,65 @@ ui.diplomacy.button_war=Declare War
 ui.diplomacy.button_break_alliance=Break Alliance
 ui.diplomacy.button_peace=Declare Peace
 ui.diplomacy.info_tooltip=Right-click on map to close
+ui.diplomacy.relation_value=Relation
+ui.diplomacy.active_agreements=Active Agreements
+ui.diplomacy.no_agreements=No active agreements
+ui.diplomacy.propose_agreement=Propose Agreement
+ui.diplomacy.agreement.air_support=Air Support Agreement
+ui.diplomacy.agreement.equipment_procurement=Equipment Procurement
+ui.diplomacy.agreement.satellite_intel=Satellite Intelligence
+ui.diplomacy.agreement.military_assistance=Military Assistance
+ui.diplomacy.agreement.financial_aid=Financial Aid
+ui.diplomacy.button.propose_air_support=Propose Air Support
+ui.diplomacy.button.propose_equipment=Propose Equipment Procurement
+ui.diplomacy.button.propose_satellite=Request Satellite Intel
+ui.diplomacy.button.propose_military_access=Propose Military Access
+ui.diplomacy.button.request_aid=Request Financial Aid
+ui.diplomacy.button.purchase_equipment=Purchase Equipment
+ui.diplomacy.button.emergency_aid=Request Emergency Military Aid
+ui.diplomacy.button.terminate=Terminate
+ui.diplomacy.purchase.title=Equipment Procurement
+ui.diplomacy.purchase.price_factor=Price factor
+ui.diplomacy.purchase.filter_hint=Filter equipment...
+ui.diplomacy.purchase.qty=Qty
+ui.diplomacy.purchase.buy=Buy
+ui.diplomacy.purchase.no_equipment=Target has no equipment available
+ui.diplomacy.button.declare_ally=Declare Alliance
+ui.diplomacy.button.declare_war=Declare War
+ui.diplomacy.button.break_alliance=Break Alliance
+ui.diplomacy.button.declare_peace=Declare Peace
+
+# UI Manager| Politics tab
+ui.politics.political_support=Political Support
+ui.politics.support_breakdown=Support Breakdown
+ui.politics.civilian_stability=Civilian Stability
+ui.politics.victory_progress=Victory Progress
+ui.politics.active_policies=Active Policies
+ui.politics.effects=Effects:
+ui.politics.conscription=Conscription
+ui.politics.economy=Economy
+ui.politics.security=Security
+
+# UI Manager| Economy tab
+ui.economy.treasury=Treasury
+ui.economy.income=Income
+ui.economy.expenses=Expenses
+ui.economy.net=Net
+ui.economy.urban_taxation=Urban Taxation
+ui.economy.oil_exports=Oil Exports
+ui.economy.foreign_aid=Foreign Aid
+ui.economy.total_income=Total Income
+ui.economy.military_upkeep=Military Upkeep
+ui.economy.building_upkeep=Building Upkeep
+ui.economy.equip_purchases=Equip. Purchases
+ui.economy.total_expenses=Total Expenses
+ui.economy.national_resources=National Resource Stockpiles
+ui.economy.crude_oil=Crude Oil
+ui.economy.fuel=Fuel
+ui.economy.iron_ore=Iron Ore
+ui.economy.steel=Steel
+ui.economy.food=Food
+ui.economy.consumer_goods=Consumer Goods
 
 # Editor| Top Bar
 editor.btn.provinces=Provinces
@@ -264,9 +353,9 @@ editor.mode.roads=Roads
 editor.mode.buildings=Buildings
 editor.mode.units=Units
 editor.mode.nations=Nations
-editor.status.modified=[MODIFIED]
-editor.status.dropper_active=| DROPPER ACTIVE
-editor.status.add_vertex=| ADD VERTEX
+editor.status.modified= [MODIFIED]
+editor.status.dropper_active= | DROPPER ACTIVE
+editor.status.add_vertex= | ADD VERTEX
 editor.status.no_map=No map loaded
 
 # Editor| Help Overlay
@@ -294,7 +383,7 @@ editor.tooltip.dropper=Click a province on the map to pick its owner state
 editor.hint.search_nations=Search nations...
 editor.hint.search_provinces=Search provinces...
 
-# ---- Editor — Province Creation Panel ----
+#Editor| Province Creation Panel
 editor.window.draw_province=Draw Province
 editor.label.click_map_vertices=Click the map to place vertices
 editor.label.vertices_placed=Vertices placed: %d
@@ -369,3 +458,376 @@ editor.btn.units_tab=Units
 editor.btn.save_all_def=Save All
 editor.btn.close=Close
 editor.label.background_icons=Background Icons
+
+# Map Events| UI
+ui.event.expires=Expires
+ui.event.effect_stability=Stability
+ui.event.effect_political=Political Support
+ui.event.effect_treasury=Treasury
+ui.event.chance_outcome=Chance outcome
+
+# Map Events| Anti-Government Protests
+event.protest.title=Anti-Government Protests
+event.protest.desc=Demonstrations have erupted in %s.
+event.protest.negotiate=Negotiate
+event.protest.crack_down=Crack Down
+event.protest.ignore=Ignore
+
+# Map Events| Corruption Scandal
+event.corruption.title=Corruption Scandal
+event.corruption.desc=A corruption scandal has been exposed in %s.
+event.corruption.investigate=Investigate
+event.corruption.cover_up=Cover Up
+
+# Map Events| Prominent Defection
+event.defection.title=Prominent Defection
+event.defection.desc=A high-ranking official has defected from %s.
+event.defection.amnesty=Offer Amnesty
+event.defection.denounce=Denounce Traitor
+
+# Map Events| Religious Leaders Statement
+event.religious.title=Religious Leaders Issue Statement
+event.religious.desc=Religious leaders have issued a statement.
+event.religious.support=Support Statement
+event.religious.reject=Reject Statement
+event.religious.neutral=Remain Neutral
+
+# Map Events| National Reconciliation
+event.reconciliation.title=National Reconciliation Proposal
+event.reconciliation.desc=A national reconciliation proposal has been put forward.
+event.reconciliation.accept=Accept Talks
+event.reconciliation.reject=Reject Talks
+
+# Map Events| Local Council Autonomy
+event.autonomy.title=Local Council Declares Autonomy
+event.autonomy.desc=The local council in %s has declared autonomy.
+event.autonomy.recognize=Recognize
+event.autonomy.negotiate=Negotiate
+event.autonomy.suppress=Suppress
+
+# Map Events| Refugee Crisis
+event.refugee.title=Refugee Crisis
+event.refugee.desc=A refugee crisis is unfolding near %s.
+event.refugee.assistance=Provide Assistance
+event.refugee.military=Prioritize Military Needs
+
+# Map Events| Local Tribal Alliance
+event.tribal.title=Local Tribal Alliance
+event.tribal.desc=A local tribal alliance has offered support in %s.
+event.tribal.support=Offer Support
+event.tribal.ignore=Ignore
+
+# Settings| Window Mode Labels
+ui.settings.window_mode.windowed=Windowed
+ui.settings.window_mode.borderless=Borderless
+ui.settings.window_mode.fullscreen=Fullscreen
+
+# Settings| Notes
+ui.settings.note.restart_safe=These settings are safe to change during gameplay.
+ui.settings.note.lang_live=Language changes take effect immediately.
+
+# Settings| Dev
+ui.settings.reveal_all_units=Reveal All Units (Dev)
+
+# City Tooltip
+ui.city.tooltip.population=Population
+ui.city.tooltip.stability=Stability
+ui.city.tooltip.food_supply=Food Supply
+ui.city.tooltip.food_stockpile=Food Stockpile
+ui.city.tooltip.consumer_goods=Consumer Goods
+ui.city.tooltip.cg_stockpile=CG Stockpile
+ui.city.tooltip.manpower_pool=Manpower Pool
+ui.city.tooltip.building_health=Building Health
+ui.city.tooltip.damaged=damaged
+ui.city.tooltip.depot_supply=Depot Supply
+ui.city.tooltip.employment=Employment
+
+# Building| Construction
+ui.building.construction_site=Construction Site
+ui.building.building_label=Building
+ui.building.family_label=Family
+ui.building.progress_label=Progress
+ui.building.remaining_label=Remaining
+ui.building.cancel_construction=Cancel Construction
+
+# Building| Tooltips
+ui.building.tooltip.health=Health
+ui.building.tooltip.output_inventory=Output Inventory
+ui.building.tooltip.steel=Steel
+ui.building.tooltip.supplies_stored=Supplies Stored
+ui.building.tooltip.manpower_stored=Manpower
+ui.building.tooltip.fuel=Fuel
+ui.building.tooltip.crude_oil=Crude Oil
+ui.building.tooltip.iron_ore=Iron Ore
+ui.building.tooltip.aircraft_stored=Aircraft Stored
+ui.building.tooltip.food=Food
+ui.building.tooltip.consumer_goods_stored=Consumer Goods
+
+# Building| Factory
+ui.building.no_family_assigned=NO FAMILY ASSIGNED
+ui.building.set_family=Set Family
+ui.building.change=Change
+ui.building.thr=THR
+ui.building.hq_label=HQ
+ui.building.hq_none=NONE
+ui.building.no_families=No families available
+ui.building.none_all_families=(None - All families)
+ui.building.factories_assigned=Factories assigned
+
+# Building| Individual Buildings (Headers)
+ui.building.oil_extractor=Oil Extractor
+ui.building.refinery=Refinery
+ui.building.agri_center=Agricultural Center
+ui.building.iron_mine=Iron Mine
+ui.building.heavy_industry=Heavy Industry
+ui.building.civilian_industry=Civilian Industry
+ui.building.airbase=Airbase
+ui.building.arms_factory=Arms Factory
+ui.building.vehicle_factory=Vehicle Factory
+ui.building.artillery_factory=Artillery Factory
+
+# Building| Oil Extractor
+ui.building.oil.rate_ship=Rate: %.1f bbl/s  |  Ship at: %d
+ui.building.oil.stored=Stored: %d / %d barrels
+ui.building.oil.next_barrel=Next barrel: %.0f%%
+ui.building.oil.dispatching=Dispatching shipment...
+ui.building.oil.filling=Filling (%d/%d)
+
+# Building| Refinery
+ui.building.refinery.rate_ship=Rate: %.1f bbl/s  |  Ship at: %d
+ui.building.refinery.crude_stored=Crude: %d / %d
+ui.building.refinery.fuel_stored=Fuel: %d / %d
+ui.building.refinery.no_crude=No crude oil - idle
+ui.building.refinery.dispatching=Dispatching fuel...
+ui.building.refinery.refining=Refining...
+
+# Building| Agricultural Center
+ui.building.agri.rate_ship=Rate: %.1f food/s  |  Ship at: %d
+ui.building.agri.stored=Stored: %d / %d food
+ui.building.agri.dispatching=Dispatching food shipment...
+ui.building.agri.harvesting=Harvesting (%d/%d)...
+
+# Building| Iron Mine
+ui.building.iron.rate_ship=Extraction: %.1f tons/s  |  Ship at: %d
+ui.building.iron.stored=Stored: %d / %d iron ore
+ui.building.iron.dispatching=Dispatching iron ore...
+ui.building.iron.mining=Mining (%d/%d)...
+
+# Building| Heavy Industry
+ui.building.heavy.rate_ship=Conversion: %.1f tons/s  |  Ship at: %d
+ui.building.heavy.ore_input=Iron Ore Input: %d / %d
+ui.building.heavy.steel_output=Steel Output: %d  (ship at %d)
+ui.building.heavy.waiting_ore=Waiting for iron ore...
+ui.building.heavy.dispatching=Dispatching steel...
+ui.building.heavy.smelting=Smelting...
+
+# Building| Civilian Industry
+ui.building.civ.rate_ship=Rate: %.1f goods/s  |  Ship at: %d
+ui.building.civ.buffer_stored=Buffer: %d goods  |  Stored: %d / %d
+ui.building.civ.dispatching=Dispatching consumer goods...
+ui.building.civ.producing=Producing (%d/%d)...
+ui.building.civ.connected_urban=Connected Urban Areas
+ui.building.civ.no_urban=No urban areas in nation
+ui.building.civ.urban_entry=  %s (%.0f%%, q=%d, %.0fkm)
+ui.building.civ.show_less=Show Less
+ui.building.civ.show_all=Show All
+ui.building.civ.nation_status=Nation Status
+ui.building.civ.avg_supply=  Avg supply: %.0f%%  |  Lowest: %.0f%%  |  Urban areas: %d
+ui.building.civ.rate_demand=  Your rate: %.1f/s  |  Total demand: %.1f/s
+ui.building.civ.tooltip=Consumer goods improve urban stability and reduce unrest.
+
+# Building| Depot
+ui.building.depot.equipment=Equipment: %d / %d
+ui.building.depot.manpower=Manpower: %d / %d
+ui.building.depot.crude=Crude Oil: %d / %d
+ui.building.depot.fuel=Fuel: %d / %d
+
+# Building| Airbase
+ui.building.airbase.aircraft=Aircraft: %d / %d (%d assigned)
+ui.building.airbase.stationed=Stationed Aircraft
+ui.building.airbase.no_aircraft=No aircraft stationed here
+ui.building.airbase.sorties=Sorties
+ui.building.airbase.no_sorties=No sorties planned
+ui.building.airbase.new_sortie=+ New Sortie
+ui.building.airbase.airborne=[AIRBORNE]
+ui.building.airbase.planned=[PLANNED]
+ui.building.airbase.sortie_entry=Sortie #%d - %s
+ui.building.airbase.aircraft_count=Aircraft: %d  |  Alt: %.0f ft
+ui.building.airbase.target=Target: (%.4f, %.4f)
+ui.building.airbase.no_target=No target set
+ui.building.airbase.edit=Edit
+ui.building.airbase.dismiss=Dismiss
+ui.building.airbase.launch=Launch
+ui.building.airbase.x_button=X
+ui.building.airbase.assign_hq=Assign HQ
+ui.building.airbase.unassign=Unassign
+ui.building.airbase.available_fmt=(%d available)
+
+# Building| Creation Tab
+ui.building.create.select_type=Select building type
+ui.building.create.click_to_place=Left-click on map to place.
+ui.building.create.press_b=Press B or Cancel to close.
+ui.building.create.arms_factory=Arms Factory
+ui.building.create.military_hq=Military HQ
+ui.building.create.depot=Depot
+ui.building.create.oil_extractor=Oil Extractor
+ui.building.create.refinery=Refinery
+ui.building.create.agri_center=Agri Center
+ui.building.create.iron_mine=Iron Mine
+ui.building.create.heavy_industry=Heavy Industry
+ui.building.create.vehicle_factory=Vehicle Factory
+ui.building.create.artillery_factory=Artillery Factory
+ui.building.create.civilian_industry=Civilian Industry
+ui.building.create.cancel=Cancel
+
+# Unit Tooltips
+ui.tooltip.unknown_unit=Unknown unit
+ui.tooltip.unknown=Unknown
+ui.tooltip.fuel_status=Fuel: %.0f%% (%+.1f/t)  Penalty: %.0f%%
+ui.tooltip.road_health=Road Health: %.0f%% (-%.0f%% speed)
+
+# Infantry / Road Health Label
+ui.label.road_health=Road Health
+ui.label.health=Health
+
+# Economy Tab
+ui.economy.treasury_label=Treasury
+ui.economy.income_label=Income
+ui.economy.expenses_label=Expenses
+ui.economy.net_label=Net
+ui.economy.total_income_fmt=Total Income:      +%.1f /s
+ui.economy.total_expenses_fmt=Total Expenses:    -%.1f /s
+ui.economy.net_fmt=Net:               %+.1f /s
+ui.economy.net_tooltip_fmt=Net income rate. At this rate, treasury will %s by %.0f over the next minute.
+ui.economy.net_grow=grow
+ui.economy.net_shrink=shrink
+ui.economy.urban_tax_fmt=Urban Taxation:    +%.1f /s
+ui.economy.oil_exports_fmt=Oil Exports:       +%.1f /s
+ui.economy.foreign_aid_fmt=Foreign Aid:       +%.1f /s
+ui.economy.military_upkeep_fmt=Military Upkeep:   -%.1f /s
+ui.economy.building_upkeep_fmt=Building Upkeep:   -%.1f /s
+ui.economy.equip_purchases_fmt=Equip. Purchases:  -%.1f /s
+ui.economy.resources_label=National Resource Stockpiles
+ui.economy.crude_oil_fmt=Crude Oil:        %d
+ui.economy.fuel_fmt=Fuel:             %d
+ui.economy.iron_ore_fmt=Iron Ore:         %d
+ui.economy.steel_fmt=Steel:            %d
+ui.economy.food_fmt=Food:             %d
+ui.economy.consumer_goods_fmt=Consumer Goods:   %d
+
+# Economy| Tooltips
+ui.economy.tooltip.tax=Tax revenue from urban populations under your control.\nApprox. 1 treasury/sec per 1000 citizens.
+ui.economy.tooltip.oil=Revenue from exporting surplus crude oil\n(production exceeding domestic refinery + unit fuel consumption).\n1 barrel/sec surplus = 0.5 treasury/sec.
+ui.economy.tooltip.aid=Financial aid from other nations\nunder active Financial Aid agreements.
+ui.economy.tooltip.military_upkeep=Equipment maintenance (0.5%% of production cost/sec per item)\n+ manpower salary (0.5/sec per unit).
+ui.economy.tooltip.building_upkeep=Maintenance costs for all buildings.\nFactories: 1.0/s, HQ: 2.0/s, Depots: 0.5/s,\nOil/Refinery/Mine/HeavyInd: 1.5/s,\nAgri: 0.5/s, CivInd: 0.3/s, Airbase: 3.0/s.
+ui.economy.tooltip.equip_purchases=Amortized cost of equipment purchased\nfrom other nations via procurement agreements.
+
+# Politics Tab
+ui.politics.political_support_label=Political Support
+ui.politics.civilian_stability_label=Civilian Stability
+ui.politics.victory_progress_label=Victory Progress
+ui.politics.active_policies_label=Active Policies
+ui.politics.objectives_label=Objectives
+ui.politics.conscription_label=Conscription
+ui.politics.economy_label=Economy
+ui.politics.security_label=Security
+ui.politics.hold_until_fmt=Hold until: %04d-%02d-%02d
+ui.politics.elite=Elite
+ui.politics.military=Military
+ui.politics.government=Government
+ui.politics.urban_civilian=Urban Civilian
+
+# Politics| Policy Effects
+ui.politics.effects_on_selection=Effects on selection
+ui.politics.effect.elite=Elite
+ui.politics.effect.military=Military
+ui.politics.effect.government=Government
+ui.politics.effect.urban_civilian=Urban Civilian
+ui.politics.effect.stability=Stability
+ui.politics.effect.manpower=Manpower
+ui.politics.effect.factory_output=Factory Output
+ui.politics.effect.consumer_goods=Consumer Goods
+ui.politics.effect.no_change=No change
+
+# Military Tab
+ui.military.unit_composition=Unit Composition Editor
+ui.military.live_unit_editor=Live Unit Editor
+ui.military.unit_types=Unit Types
+ui.military.selected_fmt=Selected (%d)
+ui.military.composition=Composition
+ui.military.no_units=No units selected.
+ui.military.composition_goals_fmt=Composition Goals  (%d unit%s)
+ui.military.goal=Goal
+ui.military.sync_all=Sync All
+ui.military.select_prompt=Select a unit type from the list, or select units on the map and press C.
+ui.military.add_family=+ Add Family
+
+# Sortie Tab
+ui.sortie.airborne=AIRBORNE
+ui.sortie.planned=PLANNED
+ui.sortie.title_fmt=Sortie #%d [%s]
+ui.sortie.aircraft_assigned=Aircraft Assigned
+ui.sortie.none_assigned=None assigned
+ui.sortie.add_aircraft=Add Aircraft
+ui.sortie.remove_aircraft=Remove Aircraft
+ui.sortie.select_aircraft=Select Aircraft Type
+ui.sortie.no_aircraft_avail=No aircraft available
+ui.sortie.mission_label=Mission
+ui.sortie.target_label=Target
+ui.sortie.no_target_set=No target set
+ui.sortie.set_target=Set Target on Map
+ui.sortie.click_map=Click map...
+ui.sortie.clear=Clear
+ui.sortie.altitude=Altitude
+ui.sortie.air_radius=Air Radius
+ui.sortie.mission_strength=Mission Strength
+ui.sortie.org_efficiency=Org Efficiency
+ui.sortie.large_batch=(Large batch penalty)
+ui.sortie.low_fuel=LOW FUEL
+ui.sortie.slowest_aircraft=Slowest aircraft: %.6f u/s
+ui.sortie.time_airborne=Time airborne: %.0f s
+ui.sortie.dismiss_recall=Dismiss (Recall Aircraft)
+ui.sortie.close=Close
+ui.sortie.launch_sortie=LAUNCH SORTIE
+ui.sortie.need_aircraft=Need aircraft and target to launch
+ui.sortie.launch_idle=Launch Without Target (Idle Patrol)
+
+# Sortie| Aircraft Tooltip
+ui.sortie.tooltip.alt=Alt
+ui.sortie.tooltip.mission=Mission
+ui.sortie.tooltip.strength=Strength
+ui.sortie.tooltip.efficiency=Efficiency
+ui.sortie.tooltip.fuel_fmt=Fuel: %.0f / %.0f (%.0f%%)
+ui.sortie.tooltip.helicopter=(Helicopter)
+ui.sortie.tooltip.phase=Phase
+ui.sortie.tooltip.state=State
+
+# Sortie — Flight Phases
+ui.sortie.phase.transit=Transit
+ui.sortie.phase.racetrack=Racetrack
+ui.sortie.phase.figure8=Figure-8
+ui.sortie.phase.ingress=Ingress
+ui.sortie.phase.egress=Egress
+ui.sortie.phase.weave=Weave
+ui.sortie.state.transit=Transit
+ui.sortie.state.on_station=On Station
+ui.sortie.state.rtb=RTB
+
+# City Tab| Construction Buttons
+ui.button.agri_center=Agri Center
+ui.button.civ_industry=Civ Industry
+ui.button.airbase=Airbase
+
+# Unit Creation Tab
+ui.window.unit_creator=Unit Creator
+
+# End Game
+ui.endgame.title=VICTORY
+ui.endgame.subtitle=All objectives secured. The nation stands united.
+
+# HQ Assignment
+ui.building.hq_name=HQ
+ui.building.hq_assign=Assign HQ
+ui.building.hq_unassign=Unassign
+
