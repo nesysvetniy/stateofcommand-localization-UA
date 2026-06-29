@@ -110,7 +110,7 @@ ui.hq.assign_cancel=Правий клік або ESC, щоб скасувати
 ui.hq.assigning_factory=Призначити завод
 
 # UI Manager| Factory Tab
-ui.factory.no_hq_assigned=Штаб не призначено - Правий клік для призначення
+ui.factory.no_hq_assigned=Штаб не призначено -- Правий клік для призначення
 ui.factory.priority_tooltip=Автоналаштування штабу пропустить цю виробничу лінію
 ui.factory.priority_badge=[ПРІОРИТЕТ]
 
@@ -204,7 +204,7 @@ editor.btn.units=Підрозділи
 editor.btn.nations=Країни
 editor.btn.draw_province=Намалювати провінцію
 editor.btn.definitions=Визначення
-editor.btn.ref=+ Довідка
+editor.btn.ref=+ Референс
 editor.tooltip.render_settings=Налаштування рендерингу
 editor.label.modified=[ЗМІНЕНО]
 editor.label.no_map=Мапа не завантажена — відкрийте браузер ресурсів, щоб завантажити набір мап
@@ -276,10 +276,10 @@ editor.btn.add_ally=Додати союзника
 editor.label.enemies=Вороги
 editor.btn.add_enemy=Додати ворога
 editor.label.province_list_header=Список провінцій
-editor.label.state_management=Керування регіонами
-editor.input.new_state_name=Назва нового регіона##newstate
-editor.btn.create_state=Створити регіон
-editor.btn.delete_state=Видалити цей регіон
+editor.label.state_management=Керування державами
+editor.input.new_state_name=Назва Нової Країни##newstate
+editor.btn.create_state=Створити Країну
+editor.btn.delete_state=Видалити Цю Країну
 
 # Editor| City Panel
 editor.window.city=Редактор міст
@@ -289,7 +289,7 @@ editor.btn.place_city=Розмістити місто
 editor.label.click_map_place=Натисніть по мапі для розміщення
 editor.label.city_id=Місто #%d
 editor.input.city_name=Назва
-editor.input.city_state=Регіон
+editor.input.city_state=Країна
 editor.input.city_province=Провінція
 editor.input.population=Населення
 editor.input.lon_lat=Довгота / Широта
@@ -315,7 +315,7 @@ editor.window.building=Редактор будівель
 editor.label.buildings_click=Будівлі: %d  — натисніть по мапі для розміщення
 editor.label.building_id=Будівлі #%d
 editor.input.building_type=Тип
-editor.input.owner_state=Власник регіону
+editor.input.owner_state=Країна-власник
 editor.input.city_assign=Місто
 editor.input.building_pos=Позиція
 editor.label.drag_map=Перетягніть по мапі для переміщення
@@ -336,7 +336,7 @@ editor.btn.delete_building=Видалити будівлю
 
 # Editor| Unit Panel
 editor.window.unit=Редарток підрозділів
-editor.label.units_click=Підрозділи: %d  — натисніть по мапі, щоб розмістити
+editor.label.units_click=Підрозділи: %d - натисніть по мапі, щоб розмістити
 editor.label.unit_id=Підрозділ #%d
 editor.input.given_name=Назва
 editor.label.given_name_hint=Назва підрозділу (необов'язкова, буде автоматично згенерована)
@@ -354,7 +354,7 @@ editor.mode.buildings=Будівлі
 editor.mode.units=Підрозділи
 editor.mode.nations=Країни
 editor.status.modified= [ЗМІНЕНО]
-editor.status.dropper_active= | ВИКИДАЧ АКТИВНИЙ
+editor.status.dropper_active= | ПІПЕТКА АКТИВНА
 editor.status.add_vertex= | ДОДАТИ ВЕРШИНУ
 editor.status.no_map=Немає завантаженої мапи
 
@@ -377,7 +377,7 @@ editor.dropper.click_province=Натисніть по провінції, щоб
 # Editor| Dropper Button
 editor.btn.picking=Вибір...
 editor.btn.pick=Вибрати
-editor.tooltip.dropper=Натисніть на провінцію, щоб обрати регіон
+editor.tooltip.dropper=Натисніть на провінцію, щоб обрати країну
 
 # Editor| Nation/Province Combo Filters
 editor.hint.search_nations=Шукати країни...
@@ -432,7 +432,7 @@ editor.btn.draw_urban=Малювати міську зону
 editor.label.drawing_urban=Малювання... (%d вершин)
 editor.label.urban_id=Міська зона #%d  (%d вершин межі)
 editor.input.urban_name=Назва
-editor.input.urban_state=Власник регіону
+editor.input.urban_state=Країна-власник
 editor.input.urban_province=Провінція
 editor.input.urban_pop=Населення
 editor.input.filter_urban=Фільтр##urban
@@ -440,7 +440,7 @@ editor.input.filter_urban=Фільтр##urban
 # Editor| Urban Area Creation Panel
 editor.window.draw_urban=Малювати міську зону
 editor.input.create_urban_name=Назва##crurban
-editor.input.create_urban_state=Регіон##crurban
+editor.input.create_urban_state=Країна##crurban
 editor.btn.finish_urban=Завершити міську зону
 
 # Editor| Nation Editor Tab
