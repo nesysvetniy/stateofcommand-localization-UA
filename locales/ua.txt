@@ -20,7 +20,7 @@ menu.credits.line2=(Єдиний розробник і Автор)
 menu.credits.line3=
 #Then I would like for all contributors to put their credit appropriately, for example for translation (which is pretty much everyone except 1):
 menu.credits.line4=Український переклад від nesysvitniy(L W)
-menu.credits.line5=(дата) На основі перекладу від XOPEXAIT
+menu.credits.line5=Український переклад. Останнє оновлення: 29.06.2026. На основі перекладу від XOPEXAIT
 #now add all of yours here and all translators try to keep your locales up to date with the credits as well, you can even put the names in the respective language.
 
 menu.credits.click_to_return=Натисніть будь-де, щоб повернутися
@@ -362,14 +362,14 @@ editor.status.no_map=Немає завантаженої мапи
 editor.window.controls=Керування
 editor.help.navigation=Навігація
 editor.help.wasd=WASD / Перетягування правою кнопкою миші: Панорамування
-editor.help.scroll=Scroll: Приблизити
+editor.help.scroll=Коліщатко: Приблизити
 editor.help.selection=Вибір
-editor.help.click=Click: Обрати / Розмістити
-editor.help.shift_click=Shift+Click: Країна (Режим провінцій)
-editor.help.drag=Drag: Обраний рух
+editor.help.click=Клік: Обрати / Розмістити
+editor.help.shift_click=Shift+Клік: Країна (Режим провінцій)
+editor.help.drag=Перетягування: Перемістити вибране
 editor.help.escape=Escape: Скасувати вибір
 editor.help.ctrl_s=Ctrl+S: Зберегти все
-editor.help.pick=Обрати кнопку: інструмент викидання
+editor.help.pick=Піпетка: інструмент вибору
 
 # Editor| Dropper Overlay
 editor.dropper.click_province=Натисніть по провінції, щоб вибрати країну
@@ -429,7 +429,7 @@ editor.btn.reset_all=Скинути все
 editor.window.urban=Редактор міських зон
 editor.label.urban_count=Міські зони: %d
 editor.btn.draw_urban=Малювати міську зону
-editor.label.drawing_urban=Малювання... (%d verts)
+editor.label.drawing_urban=Малювання... (%d вершин)
 editor.label.urban_id=Міська зона #%d  (%d вершин межі)
 editor.input.urban_name=Назва
 editor.input.urban_state=Власник регіону
@@ -628,12 +628,12 @@ ui.building.civ.dispatching=Відправлення споживчих това
 ui.building.civ.producing=Виробництво (%d/%d)...
 ui.building.civ.connected_urban=З'єднані міські зони
 ui.building.civ.no_urban=У країні немає міських зон
-ui.building.civ.urban_entry=  %s (%.0f%%, q=%d, %.0fкм)
+ui.building.civ.urban_entry=  %s (%.0f%%, к=%d, %.0fкм)
 ui.building.civ.show_less=Менше
 ui.building.civ.show_all=Все
 ui.building.civ.nation_status=Стан країни
 ui.building.civ.avg_supply=  Середнє постачання: %.0f%%  |  Найнижче: %.0f%%  |  Міських зон: %d
-ui.building.civ.rate_demand=  Ваша швидкість: %.1f/s  |  Загальний попит: %.1f/s
+ui.building.civ.rate_demand=  Ваша швидкість: %.1f/с  |  Загальний попит: %.1f/с
 ui.building.civ.tooltip=Споживчі товари покращують стабільність міст і зменшують заворушення.
 
 # Building| Depot
@@ -695,18 +695,18 @@ ui.economy.treasury_label=Скарбниця
 ui.economy.income_label=Дохід
 ui.economy.expenses_label=Витрати
 ui.economy.net_label=Баланс
-ui.economy.total_income_fmt=Загальний дохід:      +%.1f /s
-ui.economy.total_expenses_fmt=Загальні витрати:    -%.1f /s
-ui.economy.net_fmt=Баланс:               %+.1f /s
+ui.economy.total_income_fmt=Загальний дохід:      +%.1f /с
+ui.economy.total_expenses_fmt=Загальні витрати:    -%.1f /с
+ui.economy.net_fmt=Баланс:               %+.1f /с
 ui.economy.net_tooltip_fmt=Чистий дохід. За цього темпу скарбниця %s на %.0f за наступну хвилину.
 ui.economy.net_grow=зростатиме
 ui.economy.net_shrink=зменшуватиметься
-ui.economy.urban_tax_fmt=Міське оподаткування:    +%.1f /s
-ui.economy.oil_exports_fmt=Експорт нафти:       +%.1f /s
-ui.economy.foreign_aid_fmt=Іноземна допомога:       +%.1f /s
-ui.economy.military_upkeep_fmt=Військові витрати:   -%.1f /s
-ui.economy.building_upkeep_fmt=Утримання будівель:   -%.1f /s
-ui.economy.equip_purchases_fmt=Закупівля спорядження:  -%.1f /s
+ui.economy.urban_tax_fmt=Міське оподаткування:    +%.1f /с
+ui.economy.oil_exports_fmt=Експорт нафти:       +%.1f /с
+ui.economy.foreign_aid_fmt=Іноземна допомога:       +%.1f /с
+ui.economy.military_upkeep_fmt=Військові витрати:   -%.1f /с
+ui.economy.building_upkeep_fmt=Утримання будівель:   -%.1f /с
+ui.economy.equip_purchases_fmt=Закупівля спорядження:  -%.1f /с
 ui.economy.resources_label=Національні запаси ресурсів
 ui.economy.crude_oil_fmt=Сира нафта:        %d
 ui.economy.fuel_fmt=Паливо:             %d
@@ -720,7 +720,7 @@ ui.economy.tooltip.tax=Податкові надходження з місько
 ui.economy.tooltip.oil=Дохід з експорту надлишкової сирої нафти\n(виробництво понад внутрішнього споживання НПЗ + витрат палива підрозділів).\n1 барель/с надлишку = 0.5 скарбниць/с.
 ui.economy.tooltip.aid=Фінансова допомога від інших країн\nза угодами про фінансову підтримку.
 ui.economy.tooltip.military_upkeep=Обслуговування техніки (0.5%% від вартості виробництва ціна/с за одиницю)\n+ зарплата людських ресурсів (0.5/с за підрозділ).
-ui.economy.tooltip.building_upkeep=Ціна утримування всіх будівель.\nЗаводи: 1.0/с, Штаби: 2.0/с, Склади: 0.5/с,\nНафтові/НПЗ/Штахи/ВажкаПром: 1.5/с,\nАгроцентри: 0.5/с, ЦивілПром: 0.3/с, Авіабази: 3.0/s.
+ui.economy.tooltip.building_upkeep=Ціна утримування всіх будівель.\nЗаводи: 1.0/с, Штаби: 2.0/с, Склади: 0.5/с,\nНафтові/НПЗ/Штахи/ВажкаПром: 1.5/с,\nАгроцентри: 0.5/с, ЦивілПром: 0.3/с, Авіабази: 3.0/с.
 ui.economy.tooltip.equip_purchases=Амортизована вартість обладнання, придбаного\nв інших державах за угодами про постачання.
 
 # Politics Tab
@@ -786,7 +786,7 @@ ui.sortie.org_efficiency=Ефективність орг.
 ui.sortie.large_batch=(Штраф за великий загін)
 ui.sortie.low_fuel=МАЛО ПАЛИВА
 ui.sortie.slowest_aircraft=Найповільніший літак: %.6f од/с
-ui.sortie.time_airborne=Час у повітрі: %.0f s
+ui.sortie.time_airborne=Час у повітрі: %.0f с
 ui.sortie.dismiss_recall=Скасувати (Відкликати літаки)
 ui.sortie.close=Закрити
 ui.sortie.launch_sortie=ЗДІЙСНИТИ ВИЛІТ
