@@ -377,7 +377,7 @@ editor.dropper.click_province=Натисніть по провінції, щоб
 # Editor| Dropper Button
 editor.btn.picking=Вибір...
 editor.btn.pick=Вибрати
-editor.tooltip.dropper=Натисніть на провінцію, щоб обрати країну
+editor.tooltip.dropper=Натисніть на провінцію на карті, щоб вибрату країну-власника
 
 # Editor| Nation/Province Combo Filters
 editor.hint.search_nations=Шукати країни...
